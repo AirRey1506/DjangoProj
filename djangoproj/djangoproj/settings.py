@@ -127,3 +127,15 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+from django.utils.translation import gettext_lazy as _
+LANGUAGES = (
+    ('it', _('Italian')),
+    ('en', _('English')),
+    ('ja', _('Japanese')),
+)
+
+import os
+LOCALE_PATHS = (
+    os.path.join(os.path.dirname(__file__), "locale"),
+)
