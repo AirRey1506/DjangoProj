@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="d10e15f3-0769-40e8-b9f3-244cadf30866" name="Changes" comment="our like entire thing lol">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/djangoproj/djangoproj/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangoproj/djangoproj/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/djangoproj/djangoproj/templates/base.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/djangoproj/djangoproj/templates/jhghj.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/djangoproj/wings/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangoproj/wings/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,6 +41,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Justine\PycharmProjects\DjangoProj\djangoproj\djangoproj\templates" />
       <recent name="C:\Users\Justine\PycharmProjects\DjangoProj\djangoproj\wings\templatetags" />
     </key>
     <key name="MoveFile.RECENT_KEYS">

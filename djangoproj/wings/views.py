@@ -8,3 +8,6 @@ def testlang(request):
 
 def index(request):
     return render(request, "index.html")
+
+def openPrice(request):
+    return render(request, "openPrice.html")
