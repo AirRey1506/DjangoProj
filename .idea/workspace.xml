@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d10e15f3-0769-40e8-b9f3-244cadf30866" name="Changes" comment="our like entire thing lol">
+    <list default="true" id="d10e15f3-0769-40e8-b9f3-244cadf30866" name="Changes" comment="html">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/djangoproj/wings/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangoproj/wings/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/djangoproj/djangoproj/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/djangoproj/djangoproj/templates/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
