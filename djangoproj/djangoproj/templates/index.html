@@ -90,7 +90,7 @@
     <div class="container position-relative text-center text-lg-start" data-aos="zoom-in" data-aos-delay="100">
       <div class="row">
         <div class="col-lg-8">
-          <h1>{% trans "Welcome to " %}<span>Wings World Cuisine</span></h1>
+          <h1>{% trans "Welcome to " %}<span>{% trans "Wings World Cuisine" %}</span></h1>
           <h2>{% trans "All you can eat buffet!" %}</h2>
 
           <div class="btns">
@@ -181,8 +181,8 @@
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-          <h2>Menu</h2>
-          <p>Check Our Tasty Menu</p>
+          <h2>{% trans "Menu" %}</h2>
+          <p>{% trans "Check Our Tasty Menu" %}</p>
         </div>
 
         <div class="row" data-aos="fade-up" data-aos-delay="100">
@@ -303,8 +303,8 @@
 
       <div class="container" data-aos="fade-up">
         <div class="section-title">
-          <h2>Gallery</h2>
-          <p>Some photos from Our Restaurant</p>
+          <h2>{% trans "Gallery" %}</h2>
+          <p>{% trans "Some photos from Our Restaurant" %}</p>
         </div>
       </div>
 
@@ -388,7 +388,7 @@
 
         <div class="section-title">
           <h2>{% trans 'Contact' %}</h2>
-          <p>Contact Us</p>
+          <p>{% trans 'Contact Us' %}</p>
         </div>
       </div>
 
@@ -432,17 +432,17 @@
             <form action="forms/contact.php" method="post" role="form" class="php-email-form">
               <div class="row">
                 <div class="col-md-6 form-group">
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                  <input type="text" name="name" class="form-control" id="name" placeholder="{% trans "Your Name" %}" required>
                 </div>
                 <div class="col-md-6 form-group mt-3 mt-md-0">
-                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                  <input type="email" class="form-control" name="email" id="email" placeholder="{% trans "Your Email" %}" required>
                 </div>
               </div>
               <div class="form-group mt-3">
-                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="{% trans "Subject" %}" required>
               </div>
               <div class="form-group mt-3">
-                <textarea class="form-control" name="message" rows="8" placeholder="Message" required></textarea>
+                <textarea class="form-control" name="message" rows="8" placeholder="{% trans "Message" %}" required></textarea>
               </div>
               <div class="my-3">
                 <div class="loading">{% trans 'Loading' %}</div>
@@ -473,7 +473,7 @@
               <p>
                 32 Wolfe Tone St <br>
                 North City, Dublin<br><br>
-                <strong>Phone:</strong>01 537 7788<br>
+                <strong>{% trans "Phone:" %}</strong>01 537 7788<br>
               </p>
               <div class="social-links mt-3">
                 <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>

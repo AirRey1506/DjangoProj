@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-04-23 12:26+0100\n"
+"POT-Creation-Date: 2022-04-23 23:17+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -20,74 +20,85 @@ msgstr ""
 
 #: .\djangoproj\settings.py:137
 msgid "Italian"
-msgstr ""
+msgstr "Italiano"
 
 #: .\djangoproj\settings.py:138
 msgid "English"
-msgstr ""
+msgstr "inglese"
 
 #: .\djangoproj\settings.py:139
 msgid "Japanese"
-msgstr ""
+msgstr "giapponese"
 
 #: .\djangoproj\templates\booking.html:50 .\djangoproj\templates\index.html:48
 #: .\djangoproj\templates\openPrice.html:49
 msgid "Mon-Sun: 11:45 - 22:30"
-msgstr ""
+msgstr "Lun-Dom: 11:45 - 22:30"
 
 #: .\djangoproj\templates\booking.html:77 .\djangoproj\templates\index.html:75
 #: .\djangoproj\templates\index.html:490
 #: .\djangoproj\templates\openPrice.html:76
+#: .\djangoproj\templates\openPrice.html:191
 msgid "Home"
-msgstr ""
+msgstr "casa"
 
 #: .\djangoproj\templates\booking.html:78 .\djangoproj\templates\index.html:76
 #: .\djangoproj\templates\index.html:491
 #: .\djangoproj\templates\openPrice.html:77
+#: .\djangoproj\templates\openPrice.html:192
 msgid "About us"
-msgstr ""
+msgstr "Chi siamo"
 
 #: .\djangoproj\templates\booking.html:79 .\djangoproj\templates\index.html:77
+#: .\djangoproj\templates\index.html:184
 #: .\djangoproj\templates\openPrice.html:78
 msgid "Menu"
-msgstr ""
+msgstr "menù"
 
 #: .\djangoproj\templates\booking.html:80 .\djangoproj\templates\index.html:78
 #: .\djangoproj\templates\index.html:492
 #: .\djangoproj\templates\openPrice.html:79
+#: .\djangoproj\templates\openPrice.html:95
+#: .\djangoproj\templates\openPrice.html:193
 msgid "Opening Times and Prices"
-msgstr ""
+msgstr "Orari e Prezzi di Apertura"
 
 #: .\djangoproj\templates\booking.html:81 .\djangoproj\templates\index.html:79
 #: .\djangoproj\templates\index.html:493
 #: .\djangoproj\templates\openPrice.html:80
+#: .\djangoproj\templates\openPrice.html:194
 msgid "Contact us"
-msgstr ""
+msgstr "Contattaci"
 
 #: .\djangoproj\templates\booking.html:85 .\djangoproj\templates\index.html:83
 #: .\djangoproj\templates\openPrice.html:84
 msgid "Book a table"
-msgstr ""
+msgstr "Prenota un tavolo"
 
 #: .\djangoproj\templates\index.html:93
 msgid "Welcome to "
-msgstr ""
+msgstr "Benvenuto a"
+
+#: .\djangoproj\templates\index.html:93 .\djangoproj\templates\index.html:472
+#: .\djangoproj\templates\openPrice.html:173
+msgid "Wings World Cuisine"
+msgstr "Wings World Cucina"
 
 #: .\djangoproj\templates\index.html:94
 msgid "All you can eat buffet!"
-msgstr ""
+msgstr "Tutto quello che puoi mangiare a buffet!"
 
 #: .\djangoproj\templates\index.html:97
 msgid "Our Menu"
-msgstr ""
+msgstr "Il nostro menù"
 
 #: .\djangoproj\templates\index.html:98
 msgid "Book a Table"
-msgstr ""
+msgstr "Prenota un tavolo"
 
 #: .\djangoproj\templates\index.html:122
 msgid "All you can eat for a set price!"
-msgstr ""
+msgstr "Tutto quello che puoi mangiare a un prezzo fisso!"
 
 #: .\djangoproj\templates\index.html:124
 msgid ""
@@ -95,21 +106,21 @@ msgid ""
 "quality dishes. This really is casual dining at its best. You won’t find "
 "anywhere quite like it! Remember you can enjoy as much as you like for one "
 "set price!"
-msgstr ""
+msgstr "Al Wing's World Cuisine troverai un'incredibile varietà di piatti di qualità preparati al momento. Questo è davvero un pranzo informale al suo meglio. Non troverai da nessuna parte abbastanza simile! Ricorda che puoi goderti quanto vuoi a un prezzo fisso!"
 
 #: .\djangoproj\templates\index.html:127
 msgid "With plenty of dishes from different countries"
-msgstr ""
+msgstr "Con abbondanza di piatti provenienti da diversi paesi"
 
 #: .\djangoproj\templates\index.html:128
 msgid ""
 "Live Cooking Stations where you can watch our chefs prepare incredible "
 "dishes right in front of your eyes"
-msgstr ""
+msgstr "Stazioni di cucina dal vivo dove puoi guardare i nostri chef preparare piatti incredibili proprio davanti ai tuoi occhi"
 
 #: .\djangoproj\templates\index.html:129
 msgid "Not to mention the stunning interior"
-msgstr ""
+msgstr "Per non parlare degli splendidi interni"
 
 #: .\djangoproj\templates\index.html:132
 msgid ""
@@ -118,15 +129,15 @@ msgid ""
 "don’t mind how much food you enjoy, but we encourage customers to only take "
 "food they will eat. They can visit the buffet as many times as they like, so "
 "they can reduce food waste to a minimum."
-msgstr ""
+msgstr "Wing's ama essere un business verde. La convinzione che dobbiamo ridurre la nostra impronta ambientale attraversa tutto ciò che facciamo. Con questo in mente, non ci importa quanto cibo ti piace, ma incoraggiamo i clienti a prendere solo il cibo che mangeranno. Possono visitare il buffet tutte le volte che vogliono, in modo da ridurre al minimo lo spreco di cibo."
 
 #: .\djangoproj\templates\index.html:145
 msgid "Offers and deals"
-msgstr ""
+msgstr "offerte"
 
 #: .\djangoproj\templates\index.html:153
 msgid "EARLY BIRD OFFER"
-msgstr ""
+msgstr "OFFERTA ANTICIPATA"
 
 #: .\djangoproj\templates\index.html:154
 #, python-format
@@ -134,203 +145,311 @@ msgid ""
 "10%% OFF YOUR FOOD BILL. T&Cs: A drink must be purchased with this offer and "
 "it’s valid for meals between 11:45 – 13:00 for lunch and 15:00 – 17:00 for "
 "dinner, Monday to Thursday"
-msgstr ""
+msgstr "10%% DI SCONTO SUL TUO CONTO ALIMENTARE. T&C: una bevanda deve essere acquistata con questa offerta ed è valida per i pasti dalle 11:45 alle 13:00 a pranzo e dalle 15:00 alle 17:00 a cena, dal lunedì al giovedì"
 
 #: .\djangoproj\templates\index.html:161
 msgid "STUDENT OFFER"
-msgstr ""
+msgstr "OFFERTA STUDENTI"
 
 #: .\djangoproj\templates\index.html:162
 #, python-format
 msgid ""
 "10%% OFF FOR ALL STUDENTS. MON TO FRI. T&Cs: A drink must be purchased with "
 "this offer. A valid student ID must be presented when redeeming this offer."
-msgstr ""
+msgstr "10%% DI SCONTO PER TUTTI GLI STUDENTI. LUN A VEN. T&C: una bevanda deve essere acquistata con questa offerta. Al momento del riscatto di questa offerta è necessario presentare un ID studente valido."
 
 #: .\djangoproj\templates\index.html:169
 msgid "3 FOR 2 COCKTAILS"
-msgstr ""
+msgstr "3 PER 2 COCKTAIL"
 
 #: .\djangoproj\templates\index.html:170
 msgid ""
 "T&Cs: Offer valid Sunday to Friday, all day. Must be over 18 to redeem this "
 "offer. This offer is not to be used in conjunction with any other offer and "
 "is subject to availability. "
-msgstr ""
+msgstr "T&C: Offerta valida dalla domenica al venerdì, tutto il giorno. Devi avere più di 18 anni per utilizzare questa offerta. Questa offerta non è cumulabile con altre offerte ed è soggetta a disponibilità."
+
+#: .\djangoproj\templates\index.html:185
+msgid "Check Our Tasty Menu"
+msgstr "Dai un'occhiata al nostro gustoso menu"
 
 #: .\djangoproj\templates\index.html:191
 msgid "All"
-msgstr ""
+msgstr "tutto"
 
 #: .\djangoproj\templates\index.html:192
 msgid "Asian"
-msgstr ""
+msgstr "cibo asiatico"
 
 #: .\djangoproj\templates\index.html:193
 msgid "Western"
-msgstr ""
+msgstr "cibo occidentale"
 
 #: .\djangoproj\templates\index.html:194
 msgid "Dessert"
-msgstr ""
+msgstr "dolce"
 
 #: .\djangoproj\templates\index.html:195
 msgid "Check out our full Menu"
-msgstr ""
+msgstr "Scopri il nostro Menù completo"
 
 #: .\djangoproj\templates\index.html:205
-#: .\djangoproj\templates\openPrice.html:106
-#: .\djangoproj\templates\openPrice.html:127
 msgid "Teppanyaki"
-msgstr ""
+msgstr "Teppanyaki"
 
 #: .\djangoproj\templates\index.html:208
 msgid "Seafood, meat and vegetables cooked on the Japanese Hotplate"
-msgstr ""
+msgstr "Frutti di mare, carne e verdure cucinati sulla piastra giapponese"
 
 #: .\djangoproj\templates\index.html:215
 msgid "Fried Ice Cream"
-msgstr ""
+msgstr "Gelato fritto"
 
 #: .\djangoproj\templates\index.html:218
 msgid "Frozen delights made in front of your eyes"
-msgstr ""
+msgstr "Delizie congelate fatte davanti ai tuoi occhi"
 
 #: .\djangoproj\templates\index.html:225
 msgid "Sushi Conveyor"
-msgstr ""
+msgstr "trasportatore di sushi"
 
 #: .\djangoproj\templates\index.html:228
 msgid "Freshly made sushi"
-msgstr ""
+msgstr "Sushi appena fatto"
 
 #: .\djangoproj\templates\index.html:235
 msgid "Seafood Bar"
-msgstr ""
+msgstr "Bar di pesce"
 
 #: .\djangoproj\templates\index.html:238
 msgid "Yummy fresh seafood selection"
-msgstr ""
+msgstr "Squisita selezione di pesce fresco"
 
 #: .\djangoproj\templates\index.html:245
 msgid "Chocolate Fountain"
-msgstr ""
+msgstr "Fontana di cioccolato"
 
 #: .\djangoproj\templates\index.html:248
 msgid "Silky flowing melted chocolate with strawberries and marshmallows"
-msgstr ""
+msgstr "Cioccolato fuso setoso con fragole e marshmallow"
 
 #: .\djangoproj\templates\index.html:255
 msgid "Dim Sum"
-msgstr ""
+msgstr "Dim sum"
 
 #: .\djangoproj\templates\index.html:258
 msgid "Freshly prepared in small batches"
-msgstr ""
+msgstr "Preparato al momento in piccoli lotti"
 
 #: .\djangoproj\templates\index.html:265
 msgid "Salad Bar"
-msgstr ""
+msgstr "Buffet di insalate"
 
 #: .\djangoproj\templates\index.html:268
 msgid "Fresh Salad dishes"
-msgstr ""
+msgstr "Piatti di insalata fresca"
 
 #: .\djangoproj\templates\index.html:275
 msgid "Pizza Bar"
-msgstr ""
+msgstr "Pizzeria Bar"
 
 #: .\djangoproj\templates\index.html:278
 msgid "Delicious pizzas and authentic Italian dishes"
-msgstr ""
+msgstr "Deliziose pizze e autentici piatti italiani"
 
 #: .\djangoproj\templates\index.html:285
 msgid "Cake Selection"
-msgstr ""
+msgstr "Selezione di torte"
 
 #: .\djangoproj\templates\index.html:288
 msgid "Mini cakes and desserts for tasting"
-msgstr ""
+msgstr "Mini torte e dolci da degustare"
+
+#: .\djangoproj\templates\index.html:306
+msgid "Gallery"
+msgstr "Galleria"
+
+#: .\djangoproj\templates\index.html:307
+msgid "Some photos from Our Restaurant"
+msgstr "Alcune foto dal Nostro Ristorante"
 
 #: .\djangoproj\templates\index.html:390
 msgid "Contact"
-msgstr ""
+msgstr "Contatto"
+
+#: .\djangoproj\templates\index.html:391
+msgid "Contact Us"
+msgstr "Contattaci"
 
 #: .\djangoproj\templates\index.html:407
 msgid "Location:"
-msgstr ""
+msgstr "Posizione:"
 
 #: .\djangoproj\templates\index.html:413
 msgid "Open Hours:"
-msgstr ""
+msgstr "Orari di apertura:"
 
 #: .\djangoproj\templates\index.html:415
 msgid "Monday-Sunday:"
-msgstr ""
+msgstr "Lunedì-domenica:"
 
 #: .\djangoproj\templates\index.html:422
 msgid "Call:"
-msgstr ""
+msgstr "Chiamata:"
+
+#: .\djangoproj\templates\index.html:435
+msgid "Your Name"
+msgstr "Il tuo nome"
+
+#: .\djangoproj\templates\index.html:438
+msgid "Your Email"
+msgstr "La tua email"
+
+#: .\djangoproj\templates\index.html:442
+msgid "Subject"
+msgstr "Soggetto"
+
+#: .\djangoproj\templates\index.html:445
+msgid "Message"
+msgstr "Messaggio"
 
 #: .\djangoproj\templates\index.html:448
 msgid "Loading"
-msgstr ""
+msgstr "Caricamento in corso"
 
 #: .\djangoproj\templates\index.html:450
 msgid "Your message has been sent. Thank you!"
-msgstr ""
+msgstr "Il vostro messaggio è stato inviato. Grazie!"
 
 #: .\djangoproj\templates\index.html:452
 msgid "Send Message"
-msgstr ""
+msgstr "Invia messaggio"
 
-#: .\djangoproj\templates\index.html:472
-msgid "Wings World Cuisine"
-msgstr ""
+#: .\djangoproj\templates\index.html:476
+msgid "Phone:"
+msgstr "Telefono:"
 
 #: .\djangoproj\templates\index.html:488
+#: .\djangoproj\templates\openPrice.html:189
 msgid "Useful Links"
-msgstr ""
+msgstr "link utili"
 
 #: .\djangoproj\templates\index.html:494
+#: .\djangoproj\templates\openPrice.html:195
 msgid "Booking"
-msgstr ""
+msgstr "Prenotazione"
 
 #: .\djangoproj\templates\index.html:499
+#: .\djangoproj\templates\openPrice.html:200
 msgid "Our Services"
-msgstr ""
+msgstr "I nostri servizi"
 
 #: .\djangoproj\templates\index.html:501
+#: .\djangoproj\templates\openPrice.html:202
 msgid "Parties"
-msgstr ""
+msgstr "Feste"
 
 #: .\djangoproj\templates\index.html:502
+#: .\djangoproj\templates\openPrice.html:203
 msgid "Specialty Cocktails"
-msgstr ""
+msgstr "cocktail speciali"
 
 #: .\djangoproj\templates\index.html:503
+#: .\djangoproj\templates\openPrice.html:204
 msgid "Offers"
-msgstr ""
+msgstr "offerte"
 
 #: .\djangoproj\templates\index.html:504
+#: .\djangoproj\templates\openPrice.html:205
 msgid "Cooking Class"
-msgstr ""
+msgstr "corso di cucina"
 
 #: .\djangoproj\templates\index.html:505
+#: .\djangoproj\templates\openPrice.html:206
 msgid "Locations"
-msgstr ""
+msgstr "posizioni"
 
 #: .\djangoproj\templates\index.html:510
+#: .\djangoproj\templates\openPrice.html:211
 msgid "Our Newsletter"
-msgstr ""
+msgstr "La nostra newsletter"
 
-#: .\djangoproj\templates\openPrice.html:98
-msgid "Specials"
-msgstr ""
+#: .\djangoproj\templates\openPrice.html:94
+msgid "Wings World"
+msgstr "Il mondo delle ali"
 
-#: .\djangoproj\templates\openPrice.html:99
-msgid "Check Our Menus"
-msgstr ""
+#: .\djangoproj\templates\openPrice.html:105
+msgid "Lunch"
+msgstr "Pranzo"
+
+#: .\djangoproj\templates\openPrice.html:106
+msgid "Monday-Friday: 11:45 - 15:45"
+msgstr "Lunedì-venerdì: 11:45 - 15:45"
+
+#: .\djangoproj\templates\openPrice.html:108
+msgid "Children: €6.95/€1.95*"
+msgstr "Bambini: 6,95 €/1,95 €*"
+
+#: .\djangoproj\templates\openPrice.html:109
+msgid "Adults: €11.95"
+msgstr "Adulti: 11,95 €"
+
+#: .\djangoproj\templates\openPrice.html:111
+msgid "Saturday: 11:45 - 15:00"
+msgstr "Sabato: 11:45 - 15:00"
+
+#: .\djangoproj\templates\openPrice.html:113
+#: .\djangoproj\templates\openPrice.html:129
+#: .\djangoproj\templates\openPrice.html:145
+msgid "Children: €11.95/€2.95*"
+msgstr "Bambini: 11,95 €/2,95 €*"
+
+#: .\djangoproj\templates\openPrice.html:114
+msgid "Adults: €19.95"
+msgstr "Adulti: 19,95 €"
+
+#: .\djangoproj\templates\openPrice.html:121
+msgid "Dinner"
+msgstr "cena"
+
+#: .\djangoproj\templates\openPrice.html:122
+msgid "Monday-Friday: 16:00 - 22:30"
+msgstr "Lunedì-venerdì: 16:00 - 22:30"
+
+#: .\djangoproj\templates\openPrice.html:124
+#: .\djangoproj\templates\openPrice.html:140
+msgid "Children: €10.95/€2.95*"
+msgstr "Bambini: 10,95 €/2,95 €*"
+
+#: .\djangoproj\templates\openPrice.html:125
+#: .\djangoproj\templates\openPrice.html:141
+#: .\djangoproj\templates\openPrice.html:146
+msgid "Adults: €20.95"
+msgstr "Adulti: 20,95 €"
+
+#: .\djangoproj\templates\openPrice.html:127
+msgid "Saturday: 15:00 - 22:30"
+msgstr "sabato: 15:00 - 22:30"
+
+#: .\djangoproj\templates\openPrice.html:130
+msgid "Adults: €22.95"
+msgstr "Adulti: 22,95 €"
+
+#: .\djangoproj\templates\openPrice.html:137
+msgid "Sunday & Public Holidays"
+msgstr "domenica e festivi"
+
+#: .\djangoproj\templates\openPrice.html:138
+msgid "Sunday: 12:00 - 22:30"
+msgstr "domenica: 12:00 - 22:30"
+
+#: .\djangoproj\templates\openPrice.html:143
+msgid "Public Holidays: 12:00 - 22:30"
+msgstr "Festivi: 12:00 - 22:30"
+
+#: .\djangoproj\templates\openPrice.html:156
+msgid "*Children under 100cm"
+msgstr "*Bambini sotto i 100 cm"
 
 #: .\wings\views.py:7
 msgid "Welcome to language translation!"

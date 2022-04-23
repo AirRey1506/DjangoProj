@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-04-23 12:25+0100\n"
+"POT-Creation-Date: 2022-04-23 23:17+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -40,16 +40,19 @@ msgstr "月曜日から日曜日までです: 11:45 - 22:30"
 #: .\djangoproj\templates\booking.html:77 .\djangoproj\templates\index.html:75
 #: .\djangoproj\templates\index.html:490
 #: .\djangoproj\templates\openPrice.html:76
+#: .\djangoproj\templates\openPrice.html:191
 msgid "Home"
 msgstr "ホーム"
 
 #: .\djangoproj\templates\booking.html:78 .\djangoproj\templates\index.html:76
 #: .\djangoproj\templates\index.html:491
 #: .\djangoproj\templates\openPrice.html:77
+#: .\djangoproj\templates\openPrice.html:192
 msgid "About us"
 msgstr "情報です"
 
 #: .\djangoproj\templates\booking.html:79 .\djangoproj\templates\index.html:77
+#: .\djangoproj\templates\index.html:184
 #: .\djangoproj\templates\openPrice.html:78
 msgid "Menu"
 msgstr "メニューです"
@@ -57,12 +60,15 @@ msgstr "メニューです"
 #: .\djangoproj\templates\booking.html:80 .\djangoproj\templates\index.html:78
 #: .\djangoproj\templates\index.html:492
 #: .\djangoproj\templates\openPrice.html:79
+#: .\djangoproj\templates\openPrice.html:95
+#: .\djangoproj\templates\openPrice.html:193
 msgid "Opening Times and Prices"
 msgstr "開場時間と開演価格"
 
 #: .\djangoproj\templates\booking.html:81 .\djangoproj\templates\index.html:79
 #: .\djangoproj\templates\index.html:493
 #: .\djangoproj\templates\openPrice.html:80
+#: .\djangoproj\templates\openPrice.html:194
 msgid "Contact us"
 msgstr "ご連絡ください"
 
@@ -74,6 +80,11 @@ msgstr "テーブルを予約してください"
 #: .\djangoproj\templates\index.html:93
 msgid "Welcome to "
 msgstr "へようこそ"
+
+#: .\djangoproj\templates\index.html:93 .\djangoproj\templates\index.html:472
+#: .\djangoproj\templates\openPrice.html:173
+msgid "Wings World Cuisine"
+msgstr "ウイングスワールド料理です"
 
 #: .\djangoproj\templates\index.html:94
 msgid "All you can eat buffet!"
@@ -99,7 +110,11 @@ msgid ""
 "quality dishes. This really is casual dining at its best. You won’t find "
 "anywhere quite like it! Remember you can enjoy as much as you like for one "
 "set price!"
-msgstr "Wing'sWorldCuiseでは、信じられないほどたくさんの新鮮な料理が用意されています。上質な料理です。 これは本当に最高のカジュアルダイニングです。 そんなに好きなものはどこにもないでしょう。 1セットでいくらでも楽しめることを覚えておいてください"
+msgstr ""
+"Wing'sWorldCuiseでは、信じられないほどたくさんの新鮮な料理が用意されていま"
+"す。上質な料理です。 これは本当に最高のカジュアルダイニングです。 そんなに好"
+"きなものはどこにもないでしょう。 1セットでいくらでも楽しめることを覚えておい"
+"てください"
 
 #: .\djangoproj\templates\index.html:127
 msgid "With plenty of dishes from different countries"
@@ -109,7 +124,9 @@ msgstr "いろいろな国の料理がたくさんあります。"
 msgid ""
 "Live Cooking Stations where you can watch our chefs prepare incredible "
 "dishes right in front of your eyes"
-msgstr "シェフが目の前で素晴らしい料理を準備する様子を見ることができるライブクッキングステーションです。"
+msgstr ""
+"シェフが目の前で素晴らしい料理を準備する様子を見ることができるライブクッキン"
+"グステーションです。"
 
 #: .\djangoproj\templates\index.html:129
 msgid "Not to mention the stunning interior"
@@ -122,7 +139,12 @@ msgid ""
 "don’t mind how much food you enjoy, but we encourage customers to only take "
 "food they will eat. They can visit the buffet as many times as they like, so "
 "they can reduce food waste to a minimum."
-msgstr "Wing'sの愛は環境に優しいビジネスになることです。 環境フットプリントを削減する必要があるという信念は、すべての行動に通じています。 そういうことを念頭に置いて、どれだけおいしく食べるかは気にしませんが、お客様には食べるものだけを摂取することをお勧めします。 バイキングは何度でも訪れることができるので、食べ物の無駄を最小限に抑えることができます。"
+msgstr ""
+"Wing'sの愛は環境に優しいビジネスになることです。 環境フットプリントを削減する"
+"必要があるという信念は、すべての行動に通じています。 そういうことを念頭に置い"
+"て、どれだけおいしく食べるかは気にしませんが、お客様には食べるものだけを摂取"
+"することをお勧めします。 バイキングは何度でも訪れることができるので、食べ物の"
+"無駄を最小限に抑えることができます。"
 
 #: .\djangoproj\templates\index.html:145
 msgid "Offers and deals"
@@ -138,7 +160,9 @@ msgid ""
 "10%% OFF YOUR FOOD BILL. T&Cs: A drink must be purchased with this offer and "
 "it’s valid for meals between 11:45 – 13:00 for lunch and 15:00 – 17:00 for "
 "dinner, Monday to Thursday"
-msgstr "食費は10パーセント引きです。 T&C:ドリンクはこのオファーと一緒に購入する必要があり、ランチは11:45~13:00、ディナーは15:00~17:00、月曜~木曜日は有効です。"
+msgstr ""
+"食費は10パーセント引きです。 T&C:ドリンクはこのオファーと一緒に購入する必要が"
+"あり、ランチは11:45~13:00、ディナーは15:00~17:00、月曜~木曜日は有効です。"
 
 #: .\djangoproj\templates\index.html:161
 msgid "STUDENT OFFER"
@@ -150,10 +174,13 @@ msgid ""
 "10%% OFF FOR ALL STUDENTS. MON TO FRI. T&Cs: A drink must be purchased with "
 "this offer. A valid student ID must be presented when redeeming this offer."
 msgstr ""
+"月曜日から金曜日まで、すべての学生が10%%オフです。ルール:このオファーと一緒に"
+"飲み物を購入する必要があります。 このオファーを償還する際には、有効な学生IDを"
+"提示する必要があります。"
 
 #: .\djangoproj\templates\index.html:169
 msgid "3 FOR 2 COCKTAILS"
-msgstr ""
+msgstr "カクテル2杯で3杯です"
 
 #: .\djangoproj\templates\index.html:170
 msgid ""
@@ -161,180 +188,306 @@ msgid ""
 "offer. This offer is not to be used in conjunction with any other offer and "
 "is subject to availability. "
 msgstr ""
+"ルール:日曜日から金曜日まで、終日有効です。 このオファーを償還するには、18歳"
+"以上でなければなりません。 このオファーは他のオファーと組み合わせて使用するこ"
+"とはできず、提供される可能性があります。"
+
+#: .\djangoproj\templates\index.html:185
+msgid "Check Our Tasty Menu"
+msgstr "おいしいメニューを確認してください"
 
 #: .\djangoproj\templates\index.html:191
 msgid "All"
-msgstr ""
+msgstr "すべて"
 
 #: .\djangoproj\templates\index.html:192
 msgid "Asian"
-msgstr ""
+msgstr "アジア料理です"
 
 #: .\djangoproj\templates\index.html:193
 msgid "Western"
-msgstr ""
+msgstr "洋食"
 
 #: .\djangoproj\templates\index.html:194
 msgid "Dessert"
-msgstr ""
+msgstr "デザート"
 
 #: .\djangoproj\templates\index.html:195
 msgid "Check out our full Menu"
-msgstr ""
+msgstr "フルメニューをご覧ください"
 
 #: .\djangoproj\templates\index.html:205
-#: .\djangoproj\templates\openPrice.html:106
-#: .\djangoproj\templates\openPrice.html:127
 msgid "Teppanyaki"
-msgstr ""
+msgstr "鉄板焼き"
 
 #: .\djangoproj\templates\index.html:208
 msgid "Seafood, meat and vegetables cooked on the Japanese Hotplate"
-msgstr ""
+msgstr "魚介類、肉、野菜を日本のホットプレートで調理しました。"
 
 #: .\djangoproj\templates\index.html:215
 msgid "Fried Ice Cream"
-msgstr ""
+msgstr "アイスクリームを揚げてください"
 
 #: .\djangoproj\templates\index.html:218
 msgid "Frozen delights made in front of your eyes"
-msgstr ""
+msgstr "目の前でフリーズした喜びを味わいます"
 
 #: .\djangoproj\templates\index.html:225
 msgid "Sushi Conveyor"
-msgstr ""
+msgstr "寿司コンベア"
 
 #: .\djangoproj\templates\index.html:228
 msgid "Freshly made sushi"
-msgstr ""
+msgstr "出来立ての寿司です"
 
 #: .\djangoproj\templates\index.html:235
 msgid "Seafood Bar"
-msgstr ""
+msgstr "シーフードバー"
 
 #: .\djangoproj\templates\index.html:238
 msgid "Yummy fresh seafood selection"
-msgstr ""
+msgstr "おいしい新鮮な魚介類のセレクション"
 
 #: .\djangoproj\templates\index.html:245
 msgid "Chocolate Fountain"
-msgstr ""
+msgstr "チョコレートの泉です"
 
 #: .\djangoproj\templates\index.html:248
 msgid "Silky flowing melted chocolate with strawberries and marshmallows"
 msgstr ""
+"絹のように流れる溶けたチョコレートにイチゴとマシュマロが添えられています。"
 
 #: .\djangoproj\templates\index.html:255
 msgid "Dim Sum"
-msgstr ""
+msgstr "点心する"
 
 #: .\djangoproj\templates\index.html:258
 msgid "Freshly prepared in small batches"
-msgstr ""
+msgstr "小分けに仕上がっています"
 
 #: .\djangoproj\templates\index.html:265
 msgid "Salad Bar"
-msgstr ""
+msgstr "サラダバー"
 
 #: .\djangoproj\templates\index.html:268
 msgid "Fresh Salad dishes"
-msgstr ""
+msgstr "新鮮なサラダ料理です。"
 
 #: .\djangoproj\templates\index.html:275
 msgid "Pizza Bar"
-msgstr ""
+msgstr "ピザバー"
 
 #: .\djangoproj\templates\index.html:278
 msgid "Delicious pizzas and authentic Italian dishes"
-msgstr ""
+msgstr "おいしいピザと本格的なイタリア料理です。"
 
 #: .\djangoproj\templates\index.html:285
 msgid "Cake Selection"
-msgstr ""
+msgstr "ケーキを選択してください"
 
 #: .\djangoproj\templates\index.html:288
 msgid "Mini cakes and desserts for tasting"
-msgstr ""
+msgstr "試食用のミニケーキとデザート"
+
+#: .\djangoproj\templates\index.html:306
+msgid "Gallery"
+msgstr "ギャラリー"
+
+#: .\djangoproj\templates\index.html:307
+msgid "Some photos from Our Restaurant"
+msgstr "私たちのレストランの写真が何枚かあります"
 
 #: .\djangoproj\templates\index.html:390
 msgid "Contact"
-msgstr ""
+msgstr "お問い合わせください"
+
+#: .\djangoproj\templates\index.html:391
+#, fuzzy
+#| msgid "Contact us"
+msgid "Contact Us"
+msgstr "ご連絡ください"
 
 #: .\djangoproj\templates\index.html:407
 msgid "Location:"
-msgstr ""
+msgstr "場所は次のとおり"
 
 #: .\djangoproj\templates\index.html:413
 msgid "Open Hours:"
-msgstr ""
+msgstr "営業時間は次のとおりです"
 
 #: .\djangoproj\templates\index.html:415
 msgid "Monday-Sunday:"
-msgstr ""
+msgstr "月~日"
 
 #: .\djangoproj\templates\index.html:422
 msgid "Call:"
-msgstr ""
+msgstr "電話してください"
+
+#: .\djangoproj\templates\index.html:435
+msgid "Your Name"
+msgstr "お名前は何ですか"
+
+#: .\djangoproj\templates\index.html:438
+msgid "Your Email"
+msgstr "お客様のEメールアドレス"
+
+#: .\djangoproj\templates\index.html:442
+msgid "Subject"
+msgstr "被験者"
+
+#: .\djangoproj\templates\index.html:445
+#, fuzzy
+#| msgid "Send Message"
+msgid "Message"
+msgstr "メッセージを送ってください"
 
 #: .\djangoproj\templates\index.html:448
 msgid "Loading"
-msgstr ""
+msgstr "読み込みます"
 
 #: .\djangoproj\templates\index.html:450
 msgid "Your message has been sent. Thank you!"
-msgstr ""
+msgstr "メッセージが送信されました。 ありがとうございました！"
 
 #: .\djangoproj\templates\index.html:452
 msgid "Send Message"
-msgstr ""
+msgstr "メッセージを送ってください"
 
-#: .\djangoproj\templates\index.html:472
-msgid "Wings World Cuisine"
-msgstr ""
+#: .\djangoproj\templates\index.html:476
+msgid "Phone:"
+msgstr "電話をかける"
 
 #: .\djangoproj\templates\index.html:488
+#: .\djangoproj\templates\openPrice.html:189
 msgid "Useful Links"
-msgstr ""
+msgstr "役に立つリンクです"
 
 #: .\djangoproj\templates\index.html:494
+#: .\djangoproj\templates\openPrice.html:195
 msgid "Booking"
-msgstr ""
+msgstr "予約してください"
 
 #: .\djangoproj\templates\index.html:499
+#: .\djangoproj\templates\openPrice.html:200
 msgid "Our Services"
-msgstr ""
+msgstr "デルのサービス"
 
 #: .\djangoproj\templates\index.html:501
+#: .\djangoproj\templates\openPrice.html:202
 msgid "Parties"
-msgstr ""
+msgstr "当事者です"
 
 #: .\djangoproj\templates\index.html:502
+#: .\djangoproj\templates\openPrice.html:203
 msgid "Specialty Cocktails"
-msgstr ""
+msgstr "スペシャルカクテル"
 
 #: .\djangoproj\templates\index.html:503
+#: .\djangoproj\templates\openPrice.html:204
 msgid "Offers"
-msgstr ""
+msgstr "提供します"
 
 #: .\djangoproj\templates\index.html:504
+#: .\djangoproj\templates\openPrice.html:205
 msgid "Cooking Class"
-msgstr ""
+msgstr "料理教室"
 
 #: .\djangoproj\templates\index.html:505
+#: .\djangoproj\templates\openPrice.html:206
 msgid "Locations"
-msgstr ""
+msgstr "ロケーションを指定し"
 
 #: .\djangoproj\templates\index.html:510
+#: .\djangoproj\templates\openPrice.html:211
 msgid "Our Newsletter"
-msgstr ""
+msgstr "ニュースレターです"
 
-#: .\djangoproj\templates\openPrice.html:98
-msgid "Specials"
-msgstr ""
+#: .\djangoproj\templates\openPrice.html:94
+msgid "Wings World"
+msgstr "翼の世界"
 
-#: .\djangoproj\templates\openPrice.html:99
-msgid "Check Our Menus"
-msgstr ""
+#: .\djangoproj\templates\openPrice.html:105
+msgid "Lunch"
+msgstr "ランチ"
+
+#: .\djangoproj\templates\openPrice.html:106
+#, fuzzy
+#| msgid "Mon-Sat: 11AM - 23PM"
+msgid "Monday-Friday: 11:45 - 15:45"
+msgstr "月曜日から日曜日までです: 11:45 - 22:30"
+
+#: .\djangoproj\templates\openPrice.html:108
+msgid "Children: €6.95/€1.95*"
+msgstr "子供たちです: ¥964.95"
+
+#: .\djangoproj\templates\openPrice.html:109
+msgid "Adults: €11.95"
+msgstr "成虫: ¥1659.17"
+
+#: .\djangoproj\templates\openPrice.html:111
+#, fuzzy
+#| msgid "Mon-Sat: 11AM - 23PM"
+msgid "Saturday: 11:45 - 15:00"
+msgstr "月曜日から日曜日までです: 11:45 - 22:30"
+
+#: .\djangoproj\templates\openPrice.html:113
+#: .\djangoproj\templates\openPrice.html:129
+#: .\djangoproj\templates\openPrice.html:145
+msgid "Children: €11.95/€2.95*"
+msgstr "子供たちです: ¥1659.17"
+
+#: .\djangoproj\templates\openPrice.html:114
+msgid "Adults: €19.95"
+msgstr "成虫: ¥2769.91"
+
+#: .\djangoproj\templates\openPrice.html:121
+msgid "Dinner"
+msgstr "夕食を済ます"
+
+#: .\djangoproj\templates\openPrice.html:122
+#, fuzzy
+#| msgid "Mon-Sat: 11AM - 23PM"
+msgid "Monday-Friday: 16:00 - 22:30"
+msgstr "月曜日から日曜日までです: 11:45 - 22:30"
+
+#: .\djangoproj\templates\openPrice.html:124
+#: .\djangoproj\templates\openPrice.html:140
+msgid "Children: €10.95/€2.95*"
+msgstr "子供たちです: ¥1659.17"
+
+#: .\djangoproj\templates\openPrice.html:125
+#: .\djangoproj\templates\openPrice.html:141
+#: .\djangoproj\templates\openPrice.html:146
+msgid "Adults: €20.95"
+msgstr "成虫: ¥2769.91"
+
+#: .\djangoproj\templates\openPrice.html:127
+#, fuzzy
+#| msgid "Mon-Sat: 11AM - 23PM"
+msgid "Saturday: 15:00 - 22:30"
+msgstr "月曜日から日曜日までです: 11:45 - 22:30"
+
+#: .\djangoproj\templates\openPrice.html:130
+msgid "Adults: €22.95"
+msgstr "成虫: ¥2769.91"
+
+#: .\djangoproj\templates\openPrice.html:137
+msgid "Sunday & Public Holidays"
+msgstr "日曜日と公休日"
+
+#: .\djangoproj\templates\openPrice.html:138
+#, fuzzy
+#| msgid "Mon-Sat: 11AM - 23PM"
+msgid "Sunday: 12:00 - 22:30"
+msgstr "月曜日から日曜日までです: 11:45 - 22:30"
+
+#: .\djangoproj\templates\openPrice.html:143
+msgid "Public Holidays: 12:00 - 22:30"
+msgstr "公休日: 12:00 - 22:30"
+
+#: .\djangoproj\templates\openPrice.html:156
+msgid "*Children under 100cm"
+msgstr "*100cm未満のお子様です"
 
 #: .\wings\views.py:7
 msgid "Welcome to language translation!"
