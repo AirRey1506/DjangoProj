@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-04-20 23:30+0100\n"
+"POT-Creation-Date: 2022-04-23 12:25+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,33 +18,323 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: .\djangoproj\settings.py:133
+#: .\djangoproj\settings.py:137
 msgid "Italian"
 msgstr "イタリア語です"
 
-#: .\djangoproj\settings.py:134
+#: .\djangoproj\settings.py:138
 msgid "English"
 msgstr "英語"
 
-#: .\djangoproj\settings.py:135
+#: .\djangoproj\settings.py:139
 msgid "Japanese"
 msgstr "日本語です"
 
-#: .\djangoproj\templates\index.html:49
-msgid "Mon-Sat: 11AM - 23PM"
+#: .\djangoproj\templates\booking.html:50 .\djangoproj\templates\index.html:48
+#: .\djangoproj\templates\openPrice.html:49
+#, fuzzy
+#| msgid "Mon-Sat: 11AM - 23PM"
+msgid "Mon-Sun: 11:45 - 22:30"
 msgstr "月曜日から日曜日までです: 11:45 - 22:30"
 
-#: .\djangoproj\templates\index.html:71
+#: .\djangoproj\templates\booking.html:77 .\djangoproj\templates\index.html:75
+#: .\djangoproj\templates\index.html:490
+#: .\djangoproj\templates\openPrice.html:76
 msgid "Home"
 msgstr "ホーム"
 
-#: .\djangoproj\templates\index.html:72
+#: .\djangoproj\templates\booking.html:78 .\djangoproj\templates\index.html:76
+#: .\djangoproj\templates\index.html:491
+#: .\djangoproj\templates\openPrice.html:77
 msgid "About us"
 msgstr "情報です"
 
-#: .\djangoproj\templates\index.html:73
+#: .\djangoproj\templates\booking.html:79 .\djangoproj\templates\index.html:77
+#: .\djangoproj\templates\openPrice.html:78
 msgid "Menu"
 msgstr "メニューです"
+
+#: .\djangoproj\templates\booking.html:80 .\djangoproj\templates\index.html:78
+#: .\djangoproj\templates\index.html:492
+#: .\djangoproj\templates\openPrice.html:79
+msgid "Opening Times and Prices"
+msgstr "開場時間と開演価格"
+
+#: .\djangoproj\templates\booking.html:81 .\djangoproj\templates\index.html:79
+#: .\djangoproj\templates\index.html:493
+#: .\djangoproj\templates\openPrice.html:80
+msgid "Contact us"
+msgstr "ご連絡ください"
+
+#: .\djangoproj\templates\booking.html:85 .\djangoproj\templates\index.html:83
+#: .\djangoproj\templates\openPrice.html:84
+msgid "Book a table"
+msgstr "テーブルを予約してください"
+
+#: .\djangoproj\templates\index.html:93
+msgid "Welcome to "
+msgstr "へようこそ"
+
+#: .\djangoproj\templates\index.html:94
+msgid "All you can eat buffet!"
+msgstr "バイキングは食べ放題です"
+
+#: .\djangoproj\templates\index.html:97
+#, fuzzy
+#| msgid "Menu"
+msgid "Our Menu"
+msgstr "メニューです"
+
+#: .\djangoproj\templates\index.html:98
+msgid "Book a Table"
+msgstr "テーブルを予約してください"
+
+#: .\djangoproj\templates\index.html:122
+msgid "All you can eat for a set price!"
+msgstr "セット価格で食べ放題です!"
+
+#: .\djangoproj\templates\index.html:124
+msgid ""
+"At Wing’s World Cuisine you’ll find an incredible array of freshly prepared "
+"quality dishes. This really is casual dining at its best. You won’t find "
+"anywhere quite like it! Remember you can enjoy as much as you like for one "
+"set price!"
+msgstr "Wing'sWorldCuiseでは、信じられないほどたくさんの新鮮な料理が用意されています。上質な料理です。 これは本当に最高のカジュアルダイニングです。 そんなに好きなものはどこにもないでしょう。 1セットでいくらでも楽しめることを覚えておいてください"
+
+#: .\djangoproj\templates\index.html:127
+msgid "With plenty of dishes from different countries"
+msgstr "いろいろな国の料理がたくさんあります。"
+
+#: .\djangoproj\templates\index.html:128
+msgid ""
+"Live Cooking Stations where you can watch our chefs prepare incredible "
+"dishes right in front of your eyes"
+msgstr "シェフが目の前で素晴らしい料理を準備する様子を見ることができるライブクッキングステーションです。"
+
+#: .\djangoproj\templates\index.html:129
+msgid "Not to mention the stunning interior"
+msgstr "素晴らしいインテリアは言うまでもありません"
+
+#: .\djangoproj\templates\index.html:132
+msgid ""
+"Wing’s loves to be a green business. The belief that we must reduce our "
+"environmental footprint runs through everything we do. With that in mind, we "
+"don’t mind how much food you enjoy, but we encourage customers to only take "
+"food they will eat. They can visit the buffet as many times as they like, so "
+"they can reduce food waste to a minimum."
+msgstr "Wing'sの愛は環境に優しいビジネスになることです。 環境フットプリントを削減する必要があるという信念は、すべての行動に通じています。 そういうことを念頭に置いて、どれだけおいしく食べるかは気にしませんが、お客様には食べるものだけを摂取することをお勧めします。 バイキングは何度でも訪れることができるので、食べ物の無駄を最小限に抑えることができます。"
+
+#: .\djangoproj\templates\index.html:145
+msgid "Offers and deals"
+msgstr "サービスとお得な情報を提供します"
+
+#: .\djangoproj\templates\index.html:153
+msgid "EARLY BIRD OFFER"
+msgstr "アーリーバードが提供します"
+
+#: .\djangoproj\templates\index.html:154
+#, python-format
+msgid ""
+"10%% OFF YOUR FOOD BILL. T&Cs: A drink must be purchased with this offer and "
+"it’s valid for meals between 11:45 – 13:00 for lunch and 15:00 – 17:00 for "
+"dinner, Monday to Thursday"
+msgstr "食費は10パーセント引きです。 T&C:ドリンクはこのオファーと一緒に購入する必要があり、ランチは11:45~13:00、ディナーは15:00~17:00、月曜~木曜日は有効です。"
+
+#: .\djangoproj\templates\index.html:161
+msgid "STUDENT OFFER"
+msgstr "受講者が提供します"
+
+#: .\djangoproj\templates\index.html:162
+#, python-format
+msgid ""
+"10%% OFF FOR ALL STUDENTS. MON TO FRI. T&Cs: A drink must be purchased with "
+"this offer. A valid student ID must be presented when redeeming this offer."
+msgstr ""
+
+#: .\djangoproj\templates\index.html:169
+msgid "3 FOR 2 COCKTAILS"
+msgstr ""
+
+#: .\djangoproj\templates\index.html:170
+msgid ""
+"T&Cs: Offer valid Sunday to Friday, all day. Must be over 18 to redeem this "
+"offer. This offer is not to be used in conjunction with any other offer and "
+"is subject to availability. "
+msgstr ""
+
+#: .\djangoproj\templates\index.html:191
+msgid "All"
+msgstr ""
+
+#: .\djangoproj\templates\index.html:192
+msgid "Asian"
+msgstr ""
+
+#: .\djangoproj\templates\index.html:193
+msgid "Western"
+msgstr ""
+
+#: .\djangoproj\templates\index.html:194
+msgid "Dessert"
+msgstr ""
+
+#: .\djangoproj\templates\index.html:195
+msgid "Check out our full Menu"
+msgstr ""
+
+#: .\djangoproj\templates\index.html:205
+#: .\djangoproj\templates\openPrice.html:106
+#: .\djangoproj\templates\openPrice.html:127
+msgid "Teppanyaki"
+msgstr ""
+
+#: .\djangoproj\templates\index.html:208
+msgid "Seafood, meat and vegetables cooked on the Japanese Hotplate"
+msgstr ""
+
+#: .\djangoproj\templates\index.html:215
+msgid "Fried Ice Cream"
+msgstr ""
+
+#: .\djangoproj\templates\index.html:218
+msgid "Frozen delights made in front of your eyes"
+msgstr ""
+
+#: .\djangoproj\templates\index.html:225
+msgid "Sushi Conveyor"
+msgstr ""
+
+#: .\djangoproj\templates\index.html:228
+msgid "Freshly made sushi"
+msgstr ""
+
+#: .\djangoproj\templates\index.html:235
+msgid "Seafood Bar"
+msgstr ""
+
+#: .\djangoproj\templates\index.html:238
+msgid "Yummy fresh seafood selection"
+msgstr ""
+
+#: .\djangoproj\templates\index.html:245
+msgid "Chocolate Fountain"
+msgstr ""
+
+#: .\djangoproj\templates\index.html:248
+msgid "Silky flowing melted chocolate with strawberries and marshmallows"
+msgstr ""
+
+#: .\djangoproj\templates\index.html:255
+msgid "Dim Sum"
+msgstr ""
+
+#: .\djangoproj\templates\index.html:258
+msgid "Freshly prepared in small batches"
+msgstr ""
+
+#: .\djangoproj\templates\index.html:265
+msgid "Salad Bar"
+msgstr ""
+
+#: .\djangoproj\templates\index.html:268
+msgid "Fresh Salad dishes"
+msgstr ""
+
+#: .\djangoproj\templates\index.html:275
+msgid "Pizza Bar"
+msgstr ""
+
+#: .\djangoproj\templates\index.html:278
+msgid "Delicious pizzas and authentic Italian dishes"
+msgstr ""
+
+#: .\djangoproj\templates\index.html:285
+msgid "Cake Selection"
+msgstr ""
+
+#: .\djangoproj\templates\index.html:288
+msgid "Mini cakes and desserts for tasting"
+msgstr ""
+
+#: .\djangoproj\templates\index.html:390
+msgid "Contact"
+msgstr ""
+
+#: .\djangoproj\templates\index.html:407
+msgid "Location:"
+msgstr ""
+
+#: .\djangoproj\templates\index.html:413
+msgid "Open Hours:"
+msgstr ""
+
+#: .\djangoproj\templates\index.html:415
+msgid "Monday-Sunday:"
+msgstr ""
+
+#: .\djangoproj\templates\index.html:422
+msgid "Call:"
+msgstr ""
+
+#: .\djangoproj\templates\index.html:448
+msgid "Loading"
+msgstr ""
+
+#: .\djangoproj\templates\index.html:450
+msgid "Your message has been sent. Thank you!"
+msgstr ""
+
+#: .\djangoproj\templates\index.html:452
+msgid "Send Message"
+msgstr ""
+
+#: .\djangoproj\templates\index.html:472
+msgid "Wings World Cuisine"
+msgstr ""
+
+#: .\djangoproj\templates\index.html:488
+msgid "Useful Links"
+msgstr ""
+
+#: .\djangoproj\templates\index.html:494
+msgid "Booking"
+msgstr ""
+
+#: .\djangoproj\templates\index.html:499
+msgid "Our Services"
+msgstr ""
+
+#: .\djangoproj\templates\index.html:501
+msgid "Parties"
+msgstr ""
+
+#: .\djangoproj\templates\index.html:502
+msgid "Specialty Cocktails"
+msgstr ""
+
+#: .\djangoproj\templates\index.html:503
+msgid "Offers"
+msgstr ""
+
+#: .\djangoproj\templates\index.html:504
+msgid "Cooking Class"
+msgstr ""
+
+#: .\djangoproj\templates\index.html:505
+msgid "Locations"
+msgstr ""
+
+#: .\djangoproj\templates\index.html:510
+msgid "Our Newsletter"
+msgstr ""
+
+#: .\djangoproj\templates\openPrice.html:98
+msgid "Specials"
+msgstr ""
+
+#: .\djangoproj\templates\openPrice.html:99
+msgid "Check Our Menus"
+msgstr ""
 
 #: .\wings\views.py:7
 msgid "Welcome to language translation!"
