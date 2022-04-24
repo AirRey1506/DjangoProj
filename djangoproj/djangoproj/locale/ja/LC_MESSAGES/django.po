@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-04-23 23:17+0100\n"
+"POT-Creation-Date: 2022-04-24 09:44+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -30,10 +30,8 @@ msgstr "英語"
 msgid "Japanese"
 msgstr "日本語です"
 
-#: .\djangoproj\templates\booking.html:50 .\djangoproj\templates\index.html:48
+#: .\djangoproj\templates\booking.html:50
 #: .\djangoproj\templates\openPrice.html:49
-#, fuzzy
-#| msgid "Mon-Sat: 11AM - 23PM"
 msgid "Mon-Sun: 11:45 - 22:30"
 msgstr "月曜日から日曜日までです: 11:45 - 22:30"
 
@@ -76,6 +74,11 @@ msgstr "ご連絡ください"
 #: .\djangoproj\templates\openPrice.html:84
 msgid "Book a table"
 msgstr "テーブルを予約してください"
+
+#: .\djangoproj\templates\index.html:48
+#, fuzzy
+msgid "Monday-Sunday: 11:45 - 22:30"
+msgstr "月曜日から日曜日までです: 11:45 - 22:30"
 
 #: .\djangoproj\templates\index.html:93
 msgid "Welcome to "
@@ -411,8 +414,6 @@ msgid "Lunch"
 msgstr "ランチ"
 
 #: .\djangoproj\templates\openPrice.html:106
-#, fuzzy
-#| msgid "Mon-Sat: 11AM - 23PM"
 msgid "Monday-Friday: 11:45 - 15:45"
 msgstr "月曜日から日曜日までです: 11:45 - 22:30"
 
@@ -425,8 +426,6 @@ msgid "Adults: €11.95"
 msgstr "成虫: ¥1659.17"
 
 #: .\djangoproj\templates\openPrice.html:111
-#, fuzzy
-#| msgid "Mon-Sat: 11AM - 23PM"
 msgid "Saturday: 11:45 - 15:00"
 msgstr "月曜日から日曜日までです: 11:45 - 22:30"
 
@@ -445,8 +444,6 @@ msgid "Dinner"
 msgstr "夕食を済ます"
 
 #: .\djangoproj\templates\openPrice.html:122
-#, fuzzy
-#| msgid "Mon-Sat: 11AM - 23PM"
 msgid "Monday-Friday: 16:00 - 22:30"
 msgstr "月曜日から日曜日までです: 11:45 - 22:30"
 
@@ -462,8 +459,6 @@ msgid "Adults: €20.95"
 msgstr "成虫: ¥2769.91"
 
 #: .\djangoproj\templates\openPrice.html:127
-#, fuzzy
-#| msgid "Mon-Sat: 11AM - 23PM"
 msgid "Saturday: 15:00 - 22:30"
 msgstr "月曜日から日曜日までです: 11:45 - 22:30"
 
@@ -476,8 +471,6 @@ msgid "Sunday & Public Holidays"
 msgstr "日曜日と公休日"
 
 #: .\djangoproj\templates\openPrice.html:138
-#, fuzzy
-#| msgid "Mon-Sat: 11AM - 23PM"
 msgid "Sunday: 12:00 - 22:30"
 msgstr "月曜日から日曜日までです: 11:45 - 22:30"
 

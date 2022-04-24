@@ -27,7 +27,7 @@
   <link href="{% static 'assets/vendor/swiper/swiper-bundle.min.css' %}" rel="stylesheet">
 
   <!-- Template Main CSS File -->
-  <link href="{% static 'assets/css/style.css' %}" rel="stylesheet">
+  <link href="{% static "" %}assets/{{ LANGUAGE_CODE }}/css/style.css" rel="stylesheet">
 
   <!-- =======================================================
   * Template Name: Restaurantly - v3.7.0
@@ -45,7 +45,7 @@
 
       <div class="contact-info d-flex align-items-center">
         <i class="bi bi-phone d-flex align-items-center"><span>01 589 5548</span></i>
-        <i class="bi bi-clock d-flex align-items-center ms-4"><span> {% trans "Mon-Sun: 11:45 - 22:30" %}</span></i>
+        <i class="bi bi-clock d-flex align-items-center ms-4"><span> {% trans "Monday-Sunday: 11:45 - 22:30" %}</span></i>
       </div>
 
         <!-- using template tag change_lang -->
