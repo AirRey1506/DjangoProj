@@ -11,3 +11,9 @@ def index(request):
 
 def openPrice(request):
     return render(request, "openPrice.html")
+
+def menu(request):
+    return render(request, "menu.html")
+
+def booking(request):
+    return render(request, "booking.html")
