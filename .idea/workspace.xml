@@ -1,16 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-<<<<<<< HEAD
-    <list default="true" id="d10e15f3-0769-40e8-b9f3-244cadf30866" name="Changes" comment="static and locale files">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/djangoproj/djangoproj/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/djangoproj/djangoproj/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/djangoproj/djangoproj/templates/openPrice.html" beforeDir="false" afterPath="$PROJECT_DIR$/djangoproj/djangoproj/templates/openPrice.html" afterDir="false" />
-=======
     <list default="true" id="d10e15f3-0769-40e8-b9f3-244cadf30866" name="Changes" comment="our like entire thing lol">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/djangoproj/djangoproj/templates/booking.html" beforeDir="false" afterPath="$PROJECT_DIR$/djangoproj/djangoproj/templates/booking.html" afterDir="false" />
->>>>>>> dd595add0139a1c54a75d756c91588993912f017
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,14 +101,7 @@
       <option name="project" value="LOCAL" />
       <updated>1648737744063</updated>
     </task>
-    <task id="LOCAL-00002" summary="static and locale files">
-      <created>1650582902415</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1650582902415</updated>
-    </task>
-    <option name="localTasksCounter" value="3" />
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -132,7 +118,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="our like entire thing lol" />
-    <MESSAGE value="static and locale files" />
-    <option name="LAST_COMMIT_MESSAGE" value="static and locale files" />
+    <option name="LAST_COMMIT_MESSAGE" value="our like entire thing lol" />
   </component>
 </project>
