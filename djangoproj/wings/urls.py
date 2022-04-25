@@ -5,5 +5,6 @@ urlpatterns = [
     path('home', index, name='index'),
     path('testlang', testlang, name='testlang'),
     path('openPrice', openPrice, name='openPrice'),
+    path('booking', booking, name='booking'),
 ]
 

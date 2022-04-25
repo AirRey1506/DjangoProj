@@ -256,6 +256,8 @@
     }
   });
 
+
+
   /**
    * Initiate gallery lightbox 
    */
@@ -271,7 +273,8 @@
       duration: 1000,
       easing: 'ease-in-out',
       once: true,
-      mirror: false
+      mirror: false,
+      disable: 'tablet'
     })
   });
 
