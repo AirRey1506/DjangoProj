@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-04-26 15:20+0100\n"
-"PO-Revision-Date: 2022-04-26 15:27+0100\n"
+"PO-Revision-Date: 2022-04-26 15:38+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: it\n"
@@ -342,7 +342,7 @@ msgstr "Delizie congelate fatte davanti ai tuoi occhi"
 
 #: .\djangoproj\templates\index.html:230 .\djangoproj\templates\menu.html:160
 msgid "Sushi Conveyor"
-msgstr "trasportatore di sushi"
+msgstr "Trasportatore di sushi"
 
 #: .\djangoproj\templates\index.html:233 .\djangoproj\templates\menu.html:163
 msgid "Freshly made sushi"
