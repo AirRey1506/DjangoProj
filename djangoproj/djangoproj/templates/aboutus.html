@@ -3,16 +3,18 @@
 {% load i18n %}
 {% load static %}
 {% load change_lang %}
+
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Wings World Cuisine</title>
+  <title>Restaurantly Bootstrap Template - Inner Page</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
+
   <!-- Favicons -->
-  <link href="{% static "" %}assets/{{ LANGUAGE_CODE }}/img/bigw.png" rel="icon">
-  <link href="{% static 'assets/img/bigw.png' %}" rel="apple-touch-icon">
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
@@ -37,7 +39,6 @@
   ======================================================== -->
 </head>
 
-
 <body>
 
   <!-- ======= Top Bar ======= -->
@@ -46,7 +47,7 @@
 
       <div class="contact-info d-flex align-items-center">
         <i class="bi bi-phone d-flex align-items-center"><span>01 589 5548</span></i>
-        <i class="bi bi-clock d-flex align-items-center ms-4"><span> {% trans "Mon-Sun: 11:45 - 22:30" %}</span></i>
+        <i class="bi bi-clock d-flex align-items-center ms-4"><span> {% trans "Monday-Sunday: 11:45 - 22:30" %}</span></i>
       </div>
 
         <!-- using template tag change_lang -->
@@ -63,7 +64,7 @@
     </div>
   </div>
 
-  <!-- ======= Header ======= -->
+ <!-- ======= Header ======= -->
   <header id="header" class="fixed-top d-flex align-items-center">
     <div class="container-fluid container-xl d-flex align-items-center justify-content-lg-between">
 
@@ -74,139 +75,70 @@
       <nav id="navbar" class="navbar order-last order-lg-0">
         <ul>
           <li><a class="nav-link scrollto active" href="home">{% trans "Home" %}</a></li>
-          <li><a class="nav-link scrollto" href="#about">{% trans "About us" %}</a></li>
+          <li><a class="nav-link scrollto" href="aboutus">{% trans "About us" %}</a></li>
           <li><a class="nav-link scrollto" href="#menu">{% trans "Menu" %}</a></li>
           <li><a class="nav-link scrollto" href="openPrice">{% trans "Opening Times and Prices" %}</a></li>
-          <li><a class="nav-link scrollto" href="#events">{% trans "Contact us" %}</a></li>
+          <li><a class="nav-link scrollto" href="#contact">{% trans "Contact us" %}</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
-      <a href="#book-a-table" class="book-a-table-btn scrollto d-none d-lg-flex">{% trans "Book a table" %}</a>
+      <a href="booking" class="book-a-table-btn scrollto d-none d-lg-flex">{% trans "Book a table" %}</a>
 
     </div>
   </header><!-- End Header -->
 
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex align-items-center">
+    <div class="container position-relative text-center text-lg-start" data-aos="zoom-in" data-aos-delay="100">
+      <div class="row">
+        <div class="col-lg-8">
+          <h1>{% trans "Welcome to " %}<span>{% trans "Wings World Cuisine" %}</span></h1>
+          <h2>{% trans "All you can eat buffet!" %}</h2>
+
+          <div class="btns">
+            <a href="menu" class="btn-menu animated fadeInUp scrollto">{% trans "Our Menu" %}</a>
+            <a href="booking" class="btn-book animated fadeInUp scrollto">{% trans "Book a Table" %}</a>
+          </div>
+        </div>
+        <div class="col-lg-4 d-flex align-items-center justify-content-center position-relative" data-aos="zoom-in" data-aos-delay="200">
+          <a href="https://www.youtube.com/watch?v=mqwp1p4eoIE&ab_channel=BingTravels" class="glightbox play-btn"></a>
+        </div>
+
+      </div>
+    </div>
+  </section><!-- End Hero -->
+
   <main id="main">
-    <section class="breadcrumbs">
-      <div class="container">
-
-        <div class="section-title">
-          <h2>{% trans "Wings World" %}</h2>
-          <p>{% trans "Opening Times and Prices" %}</p>
-        </div>
-    <!-- ======= Opening times & Prices Section ======= -->
-    <section id="why-us" class="why-us" >
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
       <div class="container" data-aos="fade-up">
-
-        <div class="row" >
-
-          <div class="col-lg-4">
-            <div class="box" data-aos="zoom-in" data-aos-delay="100">
-              <span>{% trans "Lunch" %}</span>
-              <h4>{% trans "Monday-Friday: 11:45 - 15:45" %}</h4>
-              <ul>
-                <li><p>{% trans "Children: €6.95/€1.95*" %}</p></li>
-                <li><p>{% trans "Adults: €11.95" %}</p></li>
-              </ul>
-              <h4>{% trans "Saturday: 11:45 - 15:00" %}</h4>
-              <ul>
-                <li><p>{% trans "Children: €11.95/€2.95*" %}</p></li>
-                <li><p>{% trans "Adults: €19.95" %}</p></li>
-              </ul>
-              </div>
-          </div>
-
-          <div class="col-lg-4 mt-4 mt-lg-0">
-            <div class="box" data-aos="zoom-in" data-aos-delay="200">
-              <span>{% trans "Dinner" %}</span>
-              <h4>{% trans "Monday-Friday: 16:00 - 22:30" %}</h4>
-              <ul>
-                <li><p>{% trans "Children: €10.95/€2.95*" %}</p></li>
-                <li><p>{% trans "Adults: €20.95" %}</p></li>
-              </ul>
-              <h4>{% trans "Saturday: 15:00 - 22:30" %}</h4>
-              <ul>
-                <li><p>{% trans "Children: €11.95/€2.95*" %}</p></li>
-                <li><p>{% trans "Adults: €22.95" %}</p></li>
-              </ul>
-            </div>
-          </div>
-
-          <div class="col-lg-4 mt-4 mt-lg-0">
-            <div class="box" data-aos="zoom-in" data-aos-delay="200">
-              <span>{% trans "Sunday & Public Holidays" %}</span>
-              <h4>{% trans "Sunday: 12:00 - 22:30" %}</h4>
-              <ul>
-                <li><p>{% trans "Children: €10.95/€2.95*" %}</p></li>
-                <li><p>{% trans "Adults: €20.95" %}</p></li>
-              </ul>
-              <h4>{% trans "Public Holidays: 12:00 - 22:30" %}</h4>
-              <ul>
-                <li><p>{% trans "Children: €11.95/€2.95*" %}</p></li>
-                <li><p>{% trans "Adults: €20.95" %}</p></li>
-              </ul>
-            </div>
-          </div>
-
-
-        </div>
-
-      </div>
-    </section><!-- Opening Times & Prices Section -->
-        <h4 class="section-title">{% trans "*Children under 100cm" %}</h4>
-      </div>
-    </section>
-
-    <!-- ======= Deals and Offers Section ======= -->
-    <!-- ONLY IN openPrice FOR JAPAN -->
-    <div id="goiten">
-
-    <section id="why-us2" class="why-us">
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-title">
-          <h2>{% trans "Why Us" %}</h2>
-          <p>{% trans "Offers and deals" %}</p>
-        </div>
 
         <div class="row">
-
-          <div class="col-lg-4">
-            <div class="box" data-aos="zoom-in" data-aos-delay="100">
-              <span>01</span>
-              <h4>{% trans "EARLY BIRD OFFER"%}</h4>
-              <p>{% trans "10% OFF YOUR FOOD BILL. T&Cs: A drink must be purchased with this offer and it’s valid for meals between 11:45 – 13:00 for lunch and 15:00 – 17:00 for dinner, Monday to Thursday" %}</p>
+          <div class="col-lg-6 order-1 order-lg-2" data-aos="zoom-in" data-aos-delay="100">
+            <div class="about-img">
+              <img src="{% static 'assets/img/about.jpg' %}" alt="">
             </div>
           </div>
-
-          <div class="col-lg-4 mt-4 mt-lg-0">
-            <div class="box" data-aos="zoom-in" data-aos-delay="200">
-              <span>02</span>
-              <h4>{% trans "STUDENT OFFER" %}</h4>
-              <p>{% trans "10% OFF FOR ALL STUDENTS. MON TO FRI. T&Cs: A drink must be purchased with this offer. A valid student ID must be presented when redeeming this offer." %}</p>
-            </div>
+          <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
+            <h3>{% trans "All you can eat for a set price!" %}</h3>
+            <p class="fst-italic">
+             {% trans "At Wing’s World Cuisine you’ll find an incredible array of freshly prepared quality dishes. This really is casual dining at its best. You won’t find anywhere quite like it! Remember you can enjoy as much as you like for one set price!" %}
+            </p>
+            <ul>
+              <li><i class="bi bi-check-circle"></i>{% trans "With plenty of dishes from different countries" %}</li>
+              <li><i class="bi bi-check-circle"></i>{% trans "Live Cooking Stations where you can watch our chefs prepare incredible dishes right in front of your eyes" %}</li>
+              <li><i class="bi bi-check-circle"></i>{% trans "Not to mention the stunning interior" %}</li>
+            </ul>
+            <p>
+              {% trans "Wing’s loves to be a green business. The belief that we must reduce our environmental footprint runs through everything we do. With that in mind, we don’t mind how much food you enjoy, but we encourage customers to only take food they will eat. They can visit the buffet as many times as they like, so they can reduce food waste to a minimum." %}
+            </p>
           </div>
-
-          <div class="col-lg-4 mt-4 mt-lg-0">
-            <div class="box" data-aos="zoom-in" data-aos-delay="300">
-              <span>03</span>
-              <h4>{% trans "3 FOR 2 COCKTAILS" %}</h4>
-              <p>{% trans "T&Cs: Offer valid Sunday to Friday, all day. Must be over 18 to redeem this offer. This offer is not to be used in conjunction with any other offer and is subject to availability. " %}</p>
-            </div>
-          </div>
-
         </div>
-
       </div>
-    </section><!-- End Why Us Section -->
-    </div><!-- end go -->
-  </main>
+    </section><!-- End About Section -->
+  </main><!--End main-->
 
-
-
-  <!-- End #main -->
-
-<!-- ======= Footer ======= -->
+ <!-- ======= Footer ======= -->
   <footer id="footer">
     <div class="footer-top">
       <div class="container">
@@ -218,7 +150,7 @@
               <p>
                 32 Wolfe Tone St <br>
                 North City, Dublin<br><br>
-                <strong>Phone:</strong>01 537 7788<br>
+                <strong>{% trans "Phone:" %}</strong>01 537 7788<br>
               </p>
               <div class="social-links mt-3">
                 <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
@@ -289,8 +221,9 @@
   <script src="{% static 'assets/vendor/php-email-form/validate.js' %}"></script>
 
   <!-- Template Main JS File -->
-  <script src="{% static "" %}assets/{{ LANGUAGE_CODE }}/js/main.js"></script>
+  <script src="{% static "" %}assets/{{ LANGUAGE_CODE }}//js/main.js"></script>
 
 </body>
 
 </html>
+

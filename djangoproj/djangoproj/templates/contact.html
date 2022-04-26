@@ -11,7 +11,7 @@
   <meta content="" name="description">
   <meta content="" name="keywords">
   <!-- Favicons -->
-  <link href="{% static "" %}assets/{{ LANGUAGE_CODE }}/img/bigw.png" rel="icon">
+  <link href="{% static 'assets/img/bigw.png' %}" rel="icon">
   <link href="{% static 'assets/img/bigw.png' %}" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
@@ -37,7 +37,6 @@
   ======================================================== -->
 </head>
 
-
 <body>
 
   <!-- ======= Top Bar ======= -->
@@ -46,7 +45,7 @@
 
       <div class="contact-info d-flex align-items-center">
         <i class="bi bi-phone d-flex align-items-center"><span>01 589 5548</span></i>
-        <i class="bi bi-clock d-flex align-items-center ms-4"><span> {% trans "Mon-Sun: 11:45 - 22:30" %}</span></i>
+        <i class="bi bi-clock d-flex align-items-center ms-4"><span> {% trans "Monday-Sunday: 11:45 - 22:30" %}</span></i>
       </div>
 
         <!-- using template tag change_lang -->
@@ -74,139 +73,121 @@
       <nav id="navbar" class="navbar order-last order-lg-0">
         <ul>
           <li><a class="nav-link scrollto active" href="home">{% trans "Home" %}</a></li>
-          <li><a class="nav-link scrollto" href="#about">{% trans "About us" %}</a></li>
+          <li><a class="nav-link scrollto" href="aboutus">{% trans "About us" %}</a></li>
           <li><a class="nav-link scrollto" href="#menu">{% trans "Menu" %}</a></li>
           <li><a class="nav-link scrollto" href="openPrice">{% trans "Opening Times and Prices" %}</a></li>
-          <li><a class="nav-link scrollto" href="#events">{% trans "Contact us" %}</a></li>
+          <li><a class="nav-link scrollto" href="contact">{% trans "Contact us" %}</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
-      <a href="#book-a-table" class="book-a-table-btn scrollto d-none d-lg-flex">{% trans "Book a table" %}</a>
+      <a href="booking" class="book-a-table-btn scrollto d-none d-lg-flex">{% trans "Book a table" %}</a>
 
     </div>
   </header><!-- End Header -->
 
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex align-items-center">
+    <div class="container position-relative text-center text-lg-start" data-aos="zoom-in" data-aos-delay="100">
+      <div class="row">
+        <div class="col-lg-8">
+          <h1>{% trans "Welcome to " %}<span>{% trans "Wings World Cuisine" %}</span></h1>
+          <h2>{% trans "All you can eat buffet!" %}</h2>
+
+          <div class="btns">
+            <a href="menu" class="btn-menu animated fadeInUp scrollto">{% trans "Our Menu" %}</a>
+            <a href="booking" class="btn-book animated fadeInUp scrollto">{% trans "Book a Table" %}</a>
+          </div>
+        </div>
+        <div class="col-lg-4 d-flex align-items-center justify-content-center position-relative" data-aos="zoom-in" data-aos-delay="200">
+          <a href="https://www.youtube.com/watch?v=mqwp1p4eoIE&ab_channel=BingTravels" class="glightbox play-btn"></a>
+        </div>
+
+      </div>
+    </div>
+  </section><!-- End Hero -->
+
   <main id="main">
-    <section class="breadcrumbs">
-      <div class="container">
 
-        <div class="section-title">
-          <h2>{% trans "Wings World" %}</h2>
-          <p>{% trans "Opening Times and Prices" %}</p>
-        </div>
-    <!-- ======= Opening times & Prices Section ======= -->
-    <section id="why-us" class="why-us" >
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
       <div class="container" data-aos="fade-up">
 
-        <div class="row" >
+        <div class="section-title">
+          <h2>{% trans 'Contact' %}</h2>
+          <p>{% trans 'Contact Us' %}</p>
+        </div>
+      </div>
+
+      <div data-aos="fade-up">
+        <iframe style="border:0; width: 100%; height: 350px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2381.679383145959!2d-6.269820084161457!3d53.34899527997955!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48670f286d927239%3A0x3974fca6fc82bce7!2sWing&#39;s%20World%20Cuisine!5e0!3m2!1sen!2sie!4v1650709966664!5m2!1sen!2sie" frameborder="0" allowfullscreen></iframe>
+      </div>
+
+      <div class="container" data-aos="fade-up">
+
+        <div class="row mt-5">
 
           <div class="col-lg-4">
-            <div class="box" data-aos="zoom-in" data-aos-delay="100">
-              <span>{% trans "Lunch" %}</span>
-              <h4>{% trans "Monday-Friday: 11:45 - 15:45" %}</h4>
-              <ul>
-                <li><p>{% trans "Children: €6.95/€1.95*" %}</p></li>
-                <li><p>{% trans "Adults: €11.95" %}</p></li>
-              </ul>
-              <h4>{% trans "Saturday: 11:45 - 15:00" %}</h4>
-              <ul>
-                <li><p>{% trans "Children: €11.95/€2.95*" %}</p></li>
-                <li><p>{% trans "Adults: €19.95" %}</p></li>
-              </ul>
+            <div class="info">
+              <div class="address">
+                <i class="bi bi-geo-alt"></i>
+                <h4>{% trans 'Location:' %}</h4>
+                <p>32 Wolfe Tone St, North City, Dublin</p>
               </div>
+
+              <div class="open-hours">
+                <i class="bi bi-clock"></i>
+                <h4>{% trans 'Open Hours:' %}</h4>
+                <p>
+                  {% trans 'Monday-Sunday:' %}<br>
+                  11:45 - 22:30
+                </p>
+              </div>
+
+              <div class="phone">
+                <i class="bi bi-phone"></i>
+                <h4>{% trans 'Call:' %}</h4>
+                <p>(01) 537 7788</p>
+              </div>
+
+            </div>
+
           </div>
 
-          <div class="col-lg-4 mt-4 mt-lg-0">
-            <div class="box" data-aos="zoom-in" data-aos-delay="200">
-              <span>{% trans "Dinner" %}</span>
-              <h4>{% trans "Monday-Friday: 16:00 - 22:30" %}</h4>
-              <ul>
-                <li><p>{% trans "Children: €10.95/€2.95*" %}</p></li>
-                <li><p>{% trans "Adults: €20.95" %}</p></li>
-              </ul>
-              <h4>{% trans "Saturday: 15:00 - 22:30" %}</h4>
-              <ul>
-                <li><p>{% trans "Children: €11.95/€2.95*" %}</p></li>
-                <li><p>{% trans "Adults: €22.95" %}</p></li>
-              </ul>
-            </div>
-          </div>
+          <div class="col-lg-8 mt-5 mt-lg-0">
 
-          <div class="col-lg-4 mt-4 mt-lg-0">
-            <div class="box" data-aos="zoom-in" data-aos-delay="200">
-              <span>{% trans "Sunday & Public Holidays" %}</span>
-              <h4>{% trans "Sunday: 12:00 - 22:30" %}</h4>
-              <ul>
-                <li><p>{% trans "Children: €10.95/€2.95*" %}</p></li>
-                <li><p>{% trans "Adults: €20.95" %}</p></li>
-              </ul>
-              <h4>{% trans "Public Holidays: 12:00 - 22:30" %}</h4>
-              <ul>
-                <li><p>{% trans "Children: €11.95/€2.95*" %}</p></li>
-                <li><p>{% trans "Adults: €20.95" %}</p></li>
-              </ul>
-            </div>
-          </div>
+            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+              <div class="row">
+                <div class="col-md-6 form-group">
+                  <input type="text" name="name" class="form-control" id="name" placeholder="{% trans "Your Name" %}" required>
+                </div>
+                <div class="col-md-6 form-group mt-3 mt-md-0">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="{% trans "Your Email" %}" required>
+                </div>
+              </div>
+              <div class="form-group mt-3">
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="{% trans "Subject" %}" required>
+              </div>
+              <div class="form-group mt-3">
+                <textarea class="form-control" name="message" rows="8" placeholder="{% trans "Message" %}" required></textarea>
+              </div>
+              <div class="my-3">
+                <div class="loading">{% trans 'Loading' %}</div>
+                <div class="error-message"></div>
+                <div class="sent-message">{% trans 'Your message has been sent. Thank you!' %}</div>
+              </div>
+              <div class="text-center"><button type="submit">{% trans 'Send Message' %}</button></div>
+            </form>
 
-
-        </div>
-
-      </div>
-    </section><!-- Opening Times & Prices Section -->
-        <h4 class="section-title">{% trans "*Children under 100cm" %}</h4>
-      </div>
-    </section>
-
-    <!-- ======= Deals and Offers Section ======= -->
-    <!-- ONLY IN openPrice FOR JAPAN -->
-    <div id="goiten">
-
-    <section id="why-us2" class="why-us">
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-title">
-          <h2>{% trans "Why Us" %}</h2>
-          <p>{% trans "Offers and deals" %}</p>
-        </div>
-
-        <div class="row">
-
-          <div class="col-lg-4">
-            <div class="box" data-aos="zoom-in" data-aos-delay="100">
-              <span>01</span>
-              <h4>{% trans "EARLY BIRD OFFER"%}</h4>
-              <p>{% trans "10% OFF YOUR FOOD BILL. T&Cs: A drink must be purchased with this offer and it’s valid for meals between 11:45 – 13:00 for lunch and 15:00 – 17:00 for dinner, Monday to Thursday" %}</p>
-            </div>
-          </div>
-
-          <div class="col-lg-4 mt-4 mt-lg-0">
-            <div class="box" data-aos="zoom-in" data-aos-delay="200">
-              <span>02</span>
-              <h4>{% trans "STUDENT OFFER" %}</h4>
-              <p>{% trans "10% OFF FOR ALL STUDENTS. MON TO FRI. T&Cs: A drink must be purchased with this offer. A valid student ID must be presented when redeeming this offer." %}</p>
-            </div>
-          </div>
-
-          <div class="col-lg-4 mt-4 mt-lg-0">
-            <div class="box" data-aos="zoom-in" data-aos-delay="300">
-              <span>03</span>
-              <h4>{% trans "3 FOR 2 COCKTAILS" %}</h4>
-              <p>{% trans "T&Cs: Offer valid Sunday to Friday, all day. Must be over 18 to redeem this offer. This offer is not to be used in conjunction with any other offer and is subject to availability. " %}</p>
-            </div>
           </div>
 
         </div>
 
       </div>
-    </section><!-- End Why Us Section -->
-    </div><!-- end go -->
-  </main>
+    </section><!-- End Contact Section -->
 
+  </main><!-- End #main -->
 
-
-  <!-- End #main -->
-
-<!-- ======= Footer ======= -->
+  <!-- ======= Footer ======= -->
   <footer id="footer">
     <div class="footer-top">
       <div class="container">
@@ -218,7 +199,7 @@
               <p>
                 32 Wolfe Tone St <br>
                 North City, Dublin<br><br>
-                <strong>Phone:</strong>01 537 7788<br>
+                <strong>{% trans "Phone:" %}</strong>01 537 7788<br>
               </p>
               <div class="social-links mt-3">
                 <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
@@ -289,7 +270,7 @@
   <script src="{% static 'assets/vendor/php-email-form/validate.js' %}"></script>
 
   <!-- Template Main JS File -->
-  <script src="{% static "" %}assets/{{ LANGUAGE_CODE }}/js/main.js"></script>
+  <script src="{% static "" %}assets/{{ LANGUAGE_CODE }}//js/main.js"></script>
 
 </body>
 

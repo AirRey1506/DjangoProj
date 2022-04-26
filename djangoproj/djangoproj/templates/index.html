@@ -12,7 +12,7 @@
   <meta content="" name="description">
   <meta content="" name="keywords">
   <!-- Favicons -->
-  <link href="{% static 'assets/img/bigw.png' %}" rel="icon">
+  <link href="{% static "" %}assets/{{ LANGUAGE_CODE }}/img/bigw.png" rel="icon">
   <link href="{% static 'assets/img/bigw.png' %}" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
@@ -74,10 +74,10 @@
       <nav id="navbar" class="navbar order-last order-lg-0">
         <ul>
           <li><a class="nav-link scrollto active" href="home">{% trans "Home" %}</a></li>
-          <li><a class="nav-link scrollto" href="#about">{% trans "About us" %}</a></li>
-          <li><a class="nav-link scrollto" href="#menu">{% trans "Menu" %}</a></li>
+          <li><a class="nav-link scrollto" href="aboutus">{% trans "About us" %}</a></li>
+          <li><a class="nav-link scrollto" href="menu">{% trans "Menu" %}</a></li>
           <li><a class="nav-link scrollto" href="openPrice">{% trans "Opening Times and Prices" %}</a></li>
-          <li><a class="nav-link scrollto" href="#events">{% trans "Contact us" %}</a></li>
+          <li><a class="nav-link scrollto" href="contact">{% trans "Contact us" %}</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -115,8 +115,10 @@
 
         <div class="row">
           <div class="col-lg-6 order-1 order-lg-2" data-aos="zoom-in" data-aos-delay="100" >
+            <div class="begone";>
             <div class="about-img" >
               <img src="{% static "" %}assets/{{ LANGUAGE_CODE }}/img/about.jpg" alt="">
+            </div>
             </div>
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">

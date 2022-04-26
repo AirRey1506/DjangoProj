@@ -7,5 +7,7 @@ urlpatterns = [
     path('openPrice', openPrice, name='openPrice'),
     path('booking', booking, name='booking'),
     path('menu', menu, name='menu'),
+    path('contact', contact, name='contact'),
+    path('aboutus', aboutus, name='aboutus'),
 ]
 

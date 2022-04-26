@@ -786,6 +786,10 @@ section {
     display: none;
 }
 
+#begone {
+    display: none;
+}
+
 /*.why-us .box:hover {
   background: #cda45e;
   padding: 30px 30px 70px 30px;

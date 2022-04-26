@@ -17,3 +17,9 @@ def menu(request):
 
 def booking(request):
     return render(request, "booking.html")
+
+def contact(request):
+    return render(request, "contact.html")
+
+def aboutus(request):
+    return render(request, "aboutus.html")
