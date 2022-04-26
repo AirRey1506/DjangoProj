@@ -6,5 +6,6 @@ urlpatterns = [
     path('testlang', testlang, name='testlang'),
     path('openPrice', openPrice, name='openPrice'),
     path('booking', booking, name='booking'),
+    path('menu', menu, name='menu'),
 ]
 
