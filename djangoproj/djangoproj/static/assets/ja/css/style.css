@@ -828,10 +828,11 @@ section {
   margin-top: 50px;
 }
 .menu .menu-img {
-  width: 70px;
+    display: none;
+  /*width: 70px;
   border-radius: 50%;
   float: left;
-  border: 5px solid rgba(255, 255, 255, 0.2);
+  border: 5px solid rgba(255, 255, 255, 0.2);*/
 }
 .menu .menu-content {
   margin-left: 85px;
@@ -1517,5 +1518,3 @@ section {
   font-size: 13px;
   color: #fff;
 }
-
-

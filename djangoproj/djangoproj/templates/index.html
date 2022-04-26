@@ -3,6 +3,7 @@
 {% load i18n %}
 {% load static %}
 {% load change_lang %}
+
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
@@ -137,11 +138,13 @@
     </section><!-- End About Section -->
 
     <!-- ======= Why Us Section ======= -->
+    <!-- should not appear on main page for japan -->
+    <div class="begone">
     <section id="why-us" class="why-us">
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-          <h2>Why Us</h2>
+          <h2>{% trans "Why Us" %}</h2>
           <p>{% trans "Offers and deals" %}</p>
         </div>
 
@@ -175,6 +178,8 @@
 
       </div>
     </section><!-- End Why Us Section -->
+    </div><!-- closing begone -->
+
 
     <!-- ======= Menu Section ======= -->
    <section id="menu" class="menu section-bg">
@@ -200,7 +205,7 @@
         <div class="row menu-container" data-aos="fade-up" data-aos-delay="200">
 
           <div class="col-lg-6 menu-item filter-starters">
-            <img src="{% static 'assets/img/menu/teppanyaki.jpg' %}" class="menu-img" alt="">
+            <img src="{% static "" %}assets/{{ LANGUAGE_CODE }}/img/menu/teppanyaki.jpg" class="menu-img" alt="">
             <div class="menu-content">
               <a href="#">{% trans "Teppanyaki" %}</a>
             </div>
@@ -210,7 +215,7 @@
           </div>
 
           <div class="col-lg-6 menu-item filter-specialty">
-            <img src="{% static 'assets/img/menu/friedicecream.jpg' %}" class="menu-img" alt="">
+            <img src="{% static "" %}assets/{{ LANGUAGE_CODE }}/img/menu/friedicecream.jpg" class="menu-img" alt="">
             <div class="menu-content">
               <a href="#">{% trans "Fried Ice Cream" %}</a>
             </div>
@@ -220,7 +225,7 @@
           </div>
 
           <div class="col-lg-6 menu-item filter-starters">
-            <img src="{% static 'assets/img/menu/sushi.jpg' %}" class="menu-img" alt="">
+            <img src="{% static "" %}assets/{{ LANGUAGE_CODE }}/img/menu/sushi.jpg" class="menu-img" alt="">
             <div class="menu-content">
               <a href="#">{% trans "Sushi Conveyor" %}</a>
             </div>
@@ -230,7 +235,7 @@
           </div>
 
           <div class="col-lg-6 menu-item filter-salads">
-            <img src="{% static 'assets/img/menu/seafood.jpg' %}" class="menu-img" alt="">
+            <img src="{% static "" %}assets/{{ LANGUAGE_CODE }}/img/menu/seafood.jpg" class="menu-img" alt="">
             <div class="menu-content">
               <a href="#">{% trans "Seafood Bar" %}</a>
             </div>
@@ -240,7 +245,7 @@
           </div>
 
           <div class="col-lg-6 menu-item filter-specialty">
-            <img src="{% static 'assets/img/menu/chocolatefountain.jpg' %}" class="menu-img" alt="">
+            <img src="{% static "" %}assets/{{ LANGUAGE_CODE }}/img/menu/chocolatefountain.jpg" class="menu-img" alt="">
              <div class="menu-content">
               <a href="#">{% trans "Chocolate Fountain" %}</a>
             </div>
@@ -250,7 +255,7 @@
           </div>
 
           <div class="col-lg-6 menu-item filter-starters">
-            <img src="{% static 'assets/img/menu/dimsum.jpg' %}" class="menu-img" alt="">
+            <img src="{% static "" %}assets/{{ LANGUAGE_CODE }}/img/menu/dimsum.jpg" class="menu-img" alt="">
              <div class="menu-content">
               <a href="#">{% trans "Dim Sum" %}</a>
             </div>
@@ -260,7 +265,7 @@
           </div>
 
           <div class="col-lg-6 menu-item filter-salads">
-            <img src="{% static 'assets/img/menu/salad.jpg' %}" class="menu-img" alt="">
+            <img src="{% static "" %}assets/{{ LANGUAGE_CODE }}/img/menu/salad.jpg" class="menu-img" alt="">
              <div class="menu-content">
               <a href="#">{% trans "Salad Bar" %}</a>
             </div>
@@ -270,7 +275,7 @@
           </div>
 
           <div class="col-lg-6 menu-item filter-salads">
-            <img src="{% static 'assets/img/menu/pizza.jpg' %}" class="menu-img" alt="">
+            <img src="{% static "" %}assets/{{ LANGUAGE_CODE }}/img/menu/pizza.jpg" class="menu-img" alt="">
              <div class="menu-content">
               <a href="#">{% trans "Pizza Bar" %}</a>
             </div>
@@ -280,7 +285,7 @@
           </div>
 
           <div class="col-lg-6 menu-item filter-specialty">
-            <img src="{% static 'assets/img/menu/dessert.jpg' %}" class="menu-img" alt="">
+            <img src="{% static "" %}assets/{{ LANGUAGE_CODE }}/img/menu/dessert.jpg" class="menu-img" alt="">
              <div class="menu-content">
               <a href="#">{% trans "Cake Selection" %}</a>
             </div>
@@ -299,8 +304,9 @@
 
 
     <!-- ======= Gallery Section ======= -->
-    <section class="begone" id="gallery" class="gallery">
-
+    <section id="gallery" class="gallery">
+      <!--begone removes section from japanese website -->
+    <div class="begone" >
       <div class="container" data-aos="fade-up">
         <div class="section-title">
           <h2>{% trans "Gallery" %}</h2>
@@ -314,64 +320,64 @@
 
           <div class="col-lg-3 col-md-4">
             <div class="gallery-item">
-              <a href="{% static 'assets/img/cakes.png' %}" class="gallery-lightbox" data-gall="gallery-item">
-                <img src="{% static 'assets/img/cakes.png' %}" alt="" class="img-fluid">
+              <a href="{% static "" %}assets/{{ LANGUAGE_CODE }}/img/cakes.png" class="gallery-lightbox" data-gall="gallery-item">
+                <img src="{% static "" %}assets/{{ LANGUAGE_CODE }}/img/cakes.png" alt="" class="img-fluid">
               </a>
             </div>
           </div>
 
           <div class="col-lg-3 col-md-4">
             <div class="gallery-item">
-              <a href="{% static 'assets/img/sushi.png' %}" class="gallery-lightbox" data-gall="gallery-item">
-                <img src="{% static 'assets/img/sushi.png' %}" alt="" class="img-fluid">
+              <a href="{% static "" %}assets/{{ LANGUAGE_CODE }}/img/sushi.png" class="gallery-lightbox" data-gall="gallery-item">
+                <img src="{% static "" %}assets/{{ LANGUAGE_CODE }}/img/sushi.png" alt="" class="img-fluid">
               </a>
             </div>
           </div>
 
           <div class="col-lg-3 col-md-4">
             <div class="gallery-item">
-              <a href="{% static 'assets/img/ct.png' %}" class="gallery-lightbox" data-gall="gallery-item">
-                <img src="{% static 'assets/img/ct.png' %}" alt="" class="img-fluid">
+              <a href="{% static "" %}assets/{{ LANGUAGE_CODE }}/img/ct.png" class="gallery-lightbox" data-gall="gallery-item">
+                <img src="{% static "" %}assets/{{ LANGUAGE_CODE }}/img/ct.png" alt="" class="img-fluid">
               </a>
             </div>
           </div>
 
           <div class="col-lg-3 col-md-4">
             <div class="gallery-item">
-              <a href="{% static 'assets/img/pizza.png' %}" class="gallery-lightbox" data-gall="gallery-item">
-                <img src="{% static 'assets/img/pizza.png' %}" alt="" class="img-fluid">
+              <a href"{% static "" %}assets/{{ LANGUAGE_CODE }}/img/pizza.png" class="gallery-lightbox" data-gall="gallery-item">
+                <img src="{% static "" %}assets/{{ LANGUAGE_CODE }}/img/pizza.png" alt="" class="img-fluid">
               </a>
             </div>
           </div>
 
           <div class="col-lg-3 col-md-4">
             <div class="gallery-item">
-              <a href="{% static 'assets/img/cakes2.png' %}" class="gallery-lightbox" data-gall="gallery-item">
-                <img src="{% static 'assets/img/cakes2.png' %}" alt="" class="img-fluid">
+              <a href="{% static "" %}assets/{{ LANGUAGE_CODE }}/img/cakes2.png" class="gallery-lightbox" data-gall="gallery-item">
+                <img src="{% static "" %}assets/{{ LANGUAGE_CODE }}/img/cakes2.png" alt="" class="img-fluid">
               </a>
             </div>
           </div>
 
           <div class="col-lg-3 col-md-4">
             <div class="gallery-item">
-              <a href="{% static 'assets/img/rest.png' %}" class="gallery-lightbox" data-gall="gallery-item">
-                <img src="{% static 'assets/img/rest.png' %}" alt="" class="img-fluid">
+              <a href="{% static "" %}assets/{{ LANGUAGE_CODE }}/img/rest.png" class="gallery-lightbox" data-gall="gallery-item">
+                <img src="{% static "" %}assets/{{ LANGUAGE_CODE }}/img/rest.png" alt="" class="img-fluid">
               </a>
             </div>
           </div>
 
           <div class="col-lg-3 col-md-4">
             <div class="gallery-item">
-              <a href="{% static 'assets/img/choc.png' %}" class="gallery-lightbox" data-gall="gallery-item">
-                <img src="{% static 'assets/img/choc.png' %}" alt="" class="img-fluid">
+              <a href="{% static "" %}assets/{{ LANGUAGE_CODE }}/img/choc.png" class="gallery-lightbox" data-gall="gallery-item">
+                <img src="{% static "" %}assets/{{ LANGUAGE_CODE }}/img/choc.png" alt="" class="img-fluid">
               </a>
             </div>
           </div>
 
           <div class="col-lg-3 col-md-4">
             <div class="gallery-item">
-              <a href="{% static 'assets/img/drinks.png' %}" class="gallery-lightbox" data-gall="gallery-item">
-                <img src="{% static 'assets/img/drinks.png' %}" alt="" class="img-fluid">
+              <a href="{% static "" %}assets/{{ LANGUAGE_CODE }}/img/drinks.png" class="gallery-lightbox" data-gall="gallery-item">
+                <img src="{% static "" %}assets/{{ LANGUAGE_CODE }}/img/drinks.png" alt="" class="img-fluid">
               </a>
             </div>
           </div>
@@ -379,11 +385,12 @@
         </div>
 
       </div>
+    </div>
     </section><!-- End Gallery Section -->
 
 
     <!-- ======= Contact Section ======= -->
-    <section class= "begone" id="contact" class="contact">
+    <section id="contact" class="contact">
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
