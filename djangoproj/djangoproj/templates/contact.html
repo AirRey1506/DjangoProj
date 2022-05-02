@@ -3,6 +3,7 @@
 {% load i18n %}
 {% load static %}
 {% load change_lang %}
+
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
@@ -11,7 +12,7 @@
   <meta content="" name="description">
   <meta content="" name="keywords">
   <!-- Favicons -->
-  <link href="{% static 'assets/img/bigw.png' %}" rel="icon">
+  <link href="{% static "" %}assets/{{ LANGUAGE_CODE }}/img/bigw.png" rel="icon">
   <link href="{% static 'assets/img/bigw.png' %}" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
@@ -74,7 +75,7 @@
         <ul>
           <li><a class="nav-link scrollto active" href="home">{% trans "Home" %}</a></li>
           <li><a class="nav-link scrollto" href="aboutus">{% trans "About us" %}</a></li>
-          <li><a class="nav-link scrollto" href="#menu">{% trans "Menu" %}</a></li>
+          <li><a class="nav-link scrollto" href="menu">{% trans "Menu" %}</a></li>
           <li><a class="nav-link scrollto" href="openPrice">{% trans "Opening Times and Prices" %}</a></li>
           <li><a class="nav-link scrollto" href="contact">{% trans "Contact us" %}</a></li>
         </ul>
@@ -85,38 +86,17 @@
     </div>
   </header><!-- End Header -->
 
-  <!-- ======= Hero Section ======= -->
-  <section id="hero" class="d-flex align-items-center">
-    <div class="container position-relative text-center text-lg-start" data-aos="zoom-in" data-aos-delay="100">
-      <div class="row">
-        <div class="col-lg-8">
-          <h1>{% trans "Welcome to " %}<span>{% trans "Wings World Cuisine" %}</span></h1>
-          <h2>{% trans "All you can eat buffet!" %}</h2>
-
-          <div class="btns">
-            <a href="menu" class="btn-menu animated fadeInUp scrollto">{% trans "Our Menu" %}</a>
-            <a href="booking" class="btn-book animated fadeInUp scrollto">{% trans "Book a Table" %}</a>
-          </div>
-        </div>
-        <div class="col-lg-4 d-flex align-items-center justify-content-center position-relative" data-aos="zoom-in" data-aos-delay="200">
-          <a href="https://www.youtube.com/watch?v=mqwp1p4eoIE&ab_channel=BingTravels" class="glightbox play-btn"></a>
-        </div>
-
-      </div>
-    </div>
-  </section><!-- End Hero -->
 
   <main id="main">
 
-    <!-- ======= Contact Section ======= -->
-    <section id="contact" class="contact">
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-title">
+    <section class="breadcrumbs" id="italyColor">
+      <div class="container">
           <h2>{% trans 'Contact' %}</h2>
-          <p>{% trans 'Contact Us' %}</p>
-        </div>
       </div>
+    </section>
+<!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+
 
       <div data-aos="fade-up">
         <iframe style="border:0; width: 100%; height: 350px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2381.679383145959!2d-6.269820084161457!3d53.34899527997955!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48670f286d927239%3A0x3974fca6fc82bce7!2sWing&#39;s%20World%20Cuisine!5e0!3m2!1sen!2sie!4v1650709966664!5m2!1sen!2sie" frameborder="0" allowfullscreen></iframe>
@@ -166,6 +146,9 @@
               </div>
               <div class="form-group mt-3">
                 <input type="text" class="form-control" name="subject" id="subject" placeholder="{% trans "Subject" %}" required>
+              </div>
+              <div class="form-group mt-3">
+                <input type="text" class="form-control" name="experience" id="experience" placeholder="{% trans "How was your experience?" %}" required>
               </div>
               <div class="form-group mt-3">
                 <textarea class="form-control" name="message" rows="8" placeholder="{% trans "Message" %}" required></textarea>

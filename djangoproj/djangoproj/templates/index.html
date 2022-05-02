@@ -115,7 +115,7 @@
 
         <div class="row">
           <div class="col-lg-6 order-1 order-lg-2" data-aos="zoom-in" data-aos-delay="100" >
-            <div class="begone";>
+            <div class="begone">
             <div class="about-img" >
               <img src="{% static "" %}assets/{{ LANGUAGE_CODE }}/img/about.jpg" alt="">
             </div>
@@ -123,17 +123,21 @@
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
             <h3>{% trans "All you can eat for a set price!" %}</h3>
-            <p class="fst-italic">
-             {% trans "At Wing’s World Cuisine you’ll find an incredible array of freshly prepared quality dishes. This really is casual dining at its best. You won’t find anywhere quite like it! Remember you can enjoy as much as you like for one set price!" %}
-            </p>
+             <div class="begone">
+              <p class="fst-italic">
+               {% trans "At Wing’s World Cuisine you’ll find an incredible array of freshly prepared quality dishes. This really is casual dining at its best. You won’t find anywhere quite like it! Remember you can enjoy as much as you like for one set price!" %}
+              </p>
+             </div>
             <ul>
               <li><i class="bi bi-check-circle"></i>{% trans "With plenty of dishes from different countries" %}</li>
               <li><i class="bi bi-check-circle"></i>{% trans "Live Cooking Stations where you can watch our chefs prepare incredible dishes right in front of your eyes" %}</li>
               <li><i class="bi bi-check-circle"></i>{% trans "Not to mention the stunning interior" %}</li>
             </ul>
-            <p>
-              {% trans "Wing’s loves to be a green business. The belief that we must reduce our environmental footprint runs through everything we do. With that in mind, we don’t mind how much food you enjoy, but we encourage customers to only take food they will eat. They can visit the buffet as many times as they like, so they can reduce food waste to a minimum." %}
-            </p>
+             <div class="begone">
+              <p>
+                {% trans "Wing’s loves to be a green business. The belief that we must reduce our environmental footprint runs through everything we do. With that in mind, we don’t mind how much food you enjoy, but we encourage customers to only take food they will eat. They can visit the buffet as many times as they like, so they can reduce food waste to a minimum." %}
+              </p>
+             </div>
           </div>
         </div>
       </div>
@@ -391,7 +395,7 @@
     </section><!-- End Gallery Section -->
 
 
-    <!-- ======= Contact Section ======= -->
+<!-- ======= Contact Section ======= -->
     <section id="contact" class="contact">
       <div class="container" data-aos="fade-up">
 
@@ -449,6 +453,9 @@
               </div>
               <div class="form-group mt-3">
                 <input type="text" class="form-control" name="subject" id="subject" placeholder="{% trans "Subject" %}" required>
+              </div>
+              <div class="form-group mt-3">
+                <input type="text" class="form-control" name="experience" id="experience" placeholder="{% trans "How was your experience?" %}" required>
               </div>
               <div class="form-group mt-3">
                 <textarea class="form-control" name="message" rows="8" placeholder="{% trans "Message" %}" required></textarea>

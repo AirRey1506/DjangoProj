@@ -30,7 +30,6 @@
   <!-- Template Main CSS File -->
   <link href="{% static "" %}assets/{{ LANGUAGE_CODE }}/css/style.css" rel="stylesheet">
 
-
   <!-- =======================================================
   * Template Name: Restaurantly - v3.7.0
   * Template URL: https://bootstrapmade.com/restaurantly-restaurant-template/
@@ -47,7 +46,7 @@
 
       <div class="contact-info d-flex align-items-center">
         <i class="bi bi-phone d-flex align-items-center"><span>01 589 5548</span></i>
-        <i class="bi bi-clock d-flex align-items-center ms-4"><span> {% trans "Mon-Sun: 11:45 - 22:30" %}</span></i>
+        <i class="bi bi-clock d-flex align-items-center ms-4"><span> {% trans "Monday-Sunday: 11:45 - 22:30" %}</span></i>
       </div>
 
         <!-- using template tag change_lang -->
@@ -68,24 +67,25 @@
   <header id="header" class="fixed-top d-flex align-items-center">
     <div class="container-fluid container-xl d-flex align-items-center justify-content-lg-between">
 
-      <h1 class="logo me-auto me-lg-0"><a href="index.html">{% trans "Wings Worldwide Cuisine" %}</a></h1>
-      <!-- <a href="index.html" class="logo me-auto me-lg-0"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+      <!--<h1 class="logo me-auto me-lg-0"><a href="index.html">Wings World Cuisine</a></h1> -->
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <a href="home" class="logo me-auto me-lg-0"><img src="{% static 'assets/img/logo.png' %}" alt="" class="img-fluid"></a>
 
-        <nav id="navbar" class="navbar order-last order-lg-0">
-            <ul>
-              <li><a class="nav-link scrollto active" href="home">{% trans "Home" %}</a></li>
-              <li><a class="nav-link scrollto" href="aboutus">{% trans "About us" %}</a></li>
-              <li><a class="nav-link scrollto" href="menu">{% trans "Menu" %}</a></li>
-              <li><a class="nav-link scrollto" href="openPrice">{% trans "Opening Times and Prices" %}</a></li>
-              <li><a class="nav-link scrollto" href="contact">{% trans "Contact us" %}</a></li>
-            </ul>
+      <nav id="navbar" class="navbar order-last order-lg-0">
+        <ul>
+          <li><a class="nav-link scrollto active" href="home">{% trans "Home" %}</a></li>
+          <li><a class="nav-link scrollto" href="aboutus">{% trans "About us" %}</a></li>
+          <li><a class="nav-link scrollto" href="menu">{% trans "Menu" %}</a></li>
+          <li><a class="nav-link scrollto" href="openPrice">{% trans "Opening Times and Prices" %}</a></li>
+          <li><a class="nav-link scrollto" href="contact">{% trans "Contact us" %}</a></li>
+        </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
       <a href="booking" class="book-a-table-btn scrollto d-none d-lg-flex">{% trans "Book a table" %}</a>
 
-
     </div>
   </header><!-- End Header -->
+
 
   <main id="main">
     <section class="breadcrumbs">
@@ -99,7 +99,7 @@
     </section>
 
 	    <!-- ======= Book A Table Section ======= -->
-    <section id="book-a-table" class="book-a-table">
+    <section id="book-a-table" class="book-a-table" >
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
@@ -110,27 +110,27 @@
         <form method="post" role="form" class="php-email-form" data-aos="fade-up" data-aos-delay="100">
           <div class="row">
             <div class="col-lg-4 col-md-6 form-group">
-              <input type="text" name="name" class="form-control" id="name" placeholder="{% trans "Your Name" %}" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+              <input type="text" name="name" class="form-control" id="name" placeholder="{% trans "Your Name" %}" data-rule="minlen:4" data-msg={% trans "Please enter at least 4 chars" %}>
               <div class="validate"></div>
             </div>
             <div class="col-lg-4 col-md-6 form-group mt-3 mt-md-0">
-              <input type="email" class="form-control" name="email" id="email" placeholder="{% trans "Your Email" %}" data-rule="email" data-msg="Please enter a valid email" required>
+              <input type="email" class="form-control" name="email" id="email" placeholder="{% trans "Your Email" %}" data-rule="email" data-msg={% trans "Please enter a valid email" %} required>
               <div class="validate"></div>
             </div>
             <div class="col-lg-4 col-md-6 form-group mt-3 mt-md-0">
-              <input type="text" class="form-control" name="phone" id="phone" placeholder="{% trans "Phone Number" %}" data-rule="minlen:4" data-msg="Please enter at least 4 chars" required>
+              <input type="text" class="form-control" name="phone" id="phone" placeholder="{% trans "Phone Number" %}" data-rule="minlen:4" data-msg={% trans "Please enter at least 4 chars" %}required>
               <div class="validate"></div>
             </div>
             <div class="col-lg-4 col-md-6 form-group mt-3">
-              <input type="text" name="date" class="form-control" id="date" placeholder="{% trans "Date" %}" data-rule="minlen:4" data-msg="Please enter at least 4 chars" required>
+              <input type="text" name="date" class="form-control" id="date" placeholder="{% trans "Date" %}" data-rule="minlen:4" data-msg={% trans "Please enter at least 4 chars" %} required>
               <div class="validate"></div>
             </div>
             <div class="col-lg-4 col-md-6 form-group mt-3">
-              <input type="text" class="form-control" name="time" id="time" placeholder="{% trans "Time" %}" data-rule="minlen:4" data-msg="Please enter at least 4 chars" required>
+              <input type="text" class="form-control" name="time" id="time" placeholder="{% trans "Time" %}" data-rule="minlen:4" data-msg={% trans "Please enter at least 4 chars" %} required>
               <div class="validate"></div>
             </div>
             <div class="col-lg-4 col-md-6 form-group mt-3">
-              <input type="number" class="form-control" name="people" id="people" placeholder="{% trans "Number of People" %}" data-rule="minlen:1" data-msg="Please enter at least 1 chars" required>
+              <input type="number" class="form-control" name="people" id="people" placeholder="{% trans "Number of People" %}" data-rule="minlen:1" data-msg={% trans "Please enter at least 1 chars" %} required>
               <div class="validate"></div>
             </div>
           </div>
