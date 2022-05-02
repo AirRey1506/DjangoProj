@@ -1020,9 +1020,11 @@ section {
 .book-a-table .php-email-form {
   width: 100%;
 }
+
 .book-a-table .php-email-form .form-group {
   padding-bottom: 8px;
 }
+
 .book-a-table .php-email-form .validate {
   display: none;
   color: red;
@@ -1086,9 +1088,11 @@ section {
 .book-a-table .php-email-form input {
   height: 44px;
 }
+
 .book-a-table .php-email-form textarea {
   padding: 10px 12px;
 }
+
 .book-a-table .php-email-form button[type=submit] {
   background: #cda45e;
   border: 0;
